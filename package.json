@@ -1,0 +1,20 @@
+{
+  "name": "ancient-periods-video",
+  "version": "1.0.0",
+  "description": "Cinematic Remotion build: How Did Ancient Women Handle Their Periods?",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Main out/final_video.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.481",
+    "@remotion/media-utils": "4.0.481",
+    "remotion": "4.0.481",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.5.4"
+  }
+}
