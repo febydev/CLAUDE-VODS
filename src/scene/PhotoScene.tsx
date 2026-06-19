@@ -16,27 +16,46 @@ export const PhotoScene: React.FC<{ scene: Scene }> = ({ scene }) => {
     case "drift": scale = interpolate(p, [0, 1], [1.06, 1.12]); tx = interpolate(p, [0, 1], [-24, 24]); ty = interpolate(p, [0, 1], [16, -16]); break;
   }
 
-  // heartbeat: subtle scale pulse synced to a ~1s rhythm
-  let beat = 0;
-  if (scene.heartbeat) beat = Math.sin(frame / 9) * 0.008 + Math.sin(frame / 4.5) * 0.004;
-  const totalScale = scale + beat;
+  const src = staticFile(`images/${scene.file}`);
 
-  // parallax: background layer moves slightly more than foreground tint
-  const bgX = scene.parallax ? tx * 1.25 : tx;
+  // TRUE PARALLAX: two layers from the image moving at different speeds.
+  // Background = enlarged + blurred, travels ~1.6x (far plane).
+  // Foreground = sharper, center-masked, travels ~0.5x (near plane).
+  if (scene.parallax) {
+    const bgScale = scale * 1.16;
+    const bgX = tx * 1.6, bgY = ty * 1.6;
+    const fgScale = scale * 1.0;
+    const fgX = tx * 0.5, fgY = ty * 0.5;
+    return (
+      <AbsoluteFill style={{ backgroundColor: "#000", overflow: "hidden" }}>
+        {/* far background plane */}
+        <Img src={src} style={{
+          position: "absolute", width: "100%", height: "100%", objectFit: "cover",
+          transform: `scale(${bgScale}) translate(${bgX}px, ${bgY}px)`,
+          filter: `${scene.filter} blur(3px) brightness(0.82)`, willChange: "transform",
+        }} />
+        {/* near foreground plane, masked to centre so edges reveal the moving bg */}
+        <Img src={src} style={{
+          position: "absolute", width: "100%", height: "100%", objectFit: "cover",
+          transform: `scale(${fgScale}) translate(${fgX}px, ${fgY}px)`,
+          filter: scene.filter, willChange: "transform",
+          WebkitMaskImage: "radial-gradient(ellipse 62% 70% at 50% 52%, #000 52%, transparent 86%)",
+          maskImage: "radial-gradient(ellipse 62% 70% at 50% 52%, #000 52%, transparent 86%)",
+        }} />
+        <AbsoluteFill style={{ background: scene.tint, mixBlendMode: scene.blend as any, opacity: scene.tintOp }} />
+        <AbsoluteFill style={{ background: "linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 32%)" }} />
+      </AbsoluteFill>
+    );
+  }
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#000", overflow: "hidden" }}>
-      <Img
-        src={staticFile(`images/${scene.file}`)}
-        style={{
-          position: "absolute", width: "100%", height: "100%", objectFit: "cover",
-          transform: `scale(${totalScale}) translate(${bgX}px, ${ty}px)`,
-          filter: scene.filter, willChange: "transform",
-        }}
-      />
-      {/* LUT-style color tint overlay */}
+      <Img src={src} style={{
+        position: "absolute", width: "100%", height: "100%", objectFit: "cover",
+        transform: `scale(${scale}) translate(${tx}px, ${ty}px)`,
+        filter: scene.filter, willChange: "transform",
+      }} />
       <AbsoluteFill style={{ background: scene.tint, mixBlendMode: scene.blend as any, opacity: scene.tintOp }} />
-      {/* gentle bottom gradient so captions stay readable */}
       <AbsoluteFill style={{ background: "linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 32%)" }} />
     </AbsoluteFill>
   );

@@ -90,13 +90,19 @@ export const SceneShell: React.FC<{ scene: Scene; isFirst: boolean }> = ({ scene
     if (frame >= at && frame < at + 2) flash = 1;
   }
 
+  // heartbeat zoom (Section 5.2) — applied at the SHELL level so it works on
+  // every scene type, including quote cards and diagrams (IMG7/10/62/84).
+  let beat = 0;
+  if (scene.heartbeat) beat = Math.sin(frame / 9) * 0.009 + Math.sin(frame / 4.5) * 0.005;
+
   return (
-    <AbsoluteFill style={{ opacity: fadeIn, transform: `scale(${punch})` }}>
+    <AbsoluteFill style={{ opacity: fadeIn, transform: `scale(${punch + beat})` }}>
       {isReplace ? <Built scene={scene} /> : <PhotoWithOverlays scene={scene} />}
 
       <Vignette intensity={scene.vignette} />
       {scene.dust ? <Dust count={62} opacity={0.12} /> : null}
-      {isReplace ? <GlowBorder color={scene.glow} /> : null}
+      {/* border glow on every scene: full intensity for graphics, subtle 30% on photos */}
+      <GlowBorder color={scene.glow} intensity={isReplace ? 1 : 0.3} />
 
       {/* aspect-ratio shift pattern interrupt: 4:3 pillarbox + archival tone */}
       {aspect43 ? (

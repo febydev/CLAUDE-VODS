@@ -1774,7 +1774,7 @@
    "kenBurns": "panRight",
    "dust": true,
    "parallax": false,
-   "heartbeat": true,
+   "heartbeat": false,
    "interrupt": null,
    "content": {}
   },
