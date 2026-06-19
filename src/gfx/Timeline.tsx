@@ -59,11 +59,11 @@ export const Timeline: React.FC<{ active: number; color: string; title?: string;
               marginLeft: isActive ? -5 : 0, marginTop: isActive ? -5 : 0,
             }} />
             {isActive && (
-              <div style={{ position: "absolute", left: "50%", top: -150, transform: "translateX(-50%)", textAlign: "center", opacity: pop }}>
+              <div style={{ position: "absolute", left: "50%", top: -360, transform: "translateX(-50%)", textAlign: "center", opacity: pop }}>
                 <Img src={staticFile(`images/P${node.img}.png`)} style={{
-                  width: 200, height: 116, objectFit: "cover", borderRadius: 8,
-                  border: `2px solid ${color}`, boxShadow: `0 8px 30px rgba(0,0,0,0.6)`,
-                  filter: "saturate(0.9) brightness(0.95)",
+                  width: 440, height: 300, objectFit: "cover", borderRadius: 10,
+                  border: `3px solid ${color}`, boxShadow: `0 10px 40px rgba(0,0,0,0.65), 0 0 26px ${color}66`,
+                  filter: "saturate(1.0) brightness(1.05)",
                 }} />
               </div>
             )}

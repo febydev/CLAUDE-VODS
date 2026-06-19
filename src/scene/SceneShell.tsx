@@ -5,6 +5,7 @@ import { Vignette } from "../overlay/Vignette";
 import { Dust } from "../fx/Dust";
 import { Ripple } from "../fx/Particles";
 import { GlowBorder } from "../gfx/GlowBorder";
+import { ShimmerOverlay } from "../overlay/ShimmerOverlay";
 import { QuoteCard } from "../gfx/QuoteCard";
 import { KineticText } from "../gfx/KineticText";
 import { NumberCounter } from "../gfx/NumberCounter";
@@ -100,17 +101,16 @@ export const SceneShell: React.FC<{ scene: Scene; isFirst: boolean }> = ({ scene
       {isReplace ? <Built scene={scene} /> : <PhotoWithOverlays scene={scene} />}
 
       <Vignette intensity={scene.vignette} />
-      {scene.dust ? <Dust count={62} opacity={0.12} /> : null}
+      {scene.dust ? <Dust count={48} opacity={0.1} /> : null}
       {/* border glow on every scene: full intensity for graphics, subtle 30% on photos */}
       <GlowBorder color={scene.glow} intensity={isReplace ? 1 : 0.3} />
 
-      {/* aspect-ratio shift pattern interrupt: 4:3 pillarbox + archival tone */}
+      {/* light-sweep shimmer on graphic reveals, hero photos and quote entrances */}
+      {(isReplace || scene.parallax) ? <ShimmerOverlay delay={isFirst ? 8 : 4} opacity={0.2} /> : null}
+
+      {/* aspect-ratio / archival tone pattern interrupt (NO side bars — full screen) */}
       {aspect43 ? (
-        <>
-          <div style={{ position: "absolute", top: 0, bottom: 0, left: 0, width: "12.5%", background: "#000", zIndex: 45 }} />
-          <div style={{ position: "absolute", top: 0, bottom: 0, right: 0, width: "12.5%", background: "#000", zIndex: 45 }} />
-          <AbsoluteFill style={{ background: "rgba(60,40,20,0.18)", mixBlendMode: "overlay", zIndex: 44 }} />
-        </>
+        <AbsoluteFill style={{ background: "rgba(70,46,22,0.16)", mixBlendMode: "overlay", zIndex: 44 }} />
       ) : null}
 
       {/* color-inversion flash (subliminal pattern interrupt) */}

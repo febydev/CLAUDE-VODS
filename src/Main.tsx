@@ -3,7 +3,6 @@ import data from "./scenes.json";
 import type { Data, Scene } from "./types";
 import { Intro } from "./Intro";
 import { SceneShell } from "./scene/SceneShell";
-import { LetterboxBars } from "./overlay/LetterboxBars";
 import { FilmGrain } from "./overlay/FilmGrain";
 import { Captions } from "./overlay/Captions";
 import { PALETTE } from "./theme";
@@ -49,8 +48,7 @@ export const Main: React.FC = () => {
       </Sequence>
 
       {/* Always-on overlays across the whole composition (Section 5.1) */}
-      <LetterboxBars heightPct={4} />
-      <FilmGrain opacity={0.045} />
+      <FilmGrain opacity={0.03} />
     </AbsoluteFill>
   );
 };
