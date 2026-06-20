@@ -28,7 +28,7 @@ export const Main: React.FC = () => {
             </Sequence>
           );
         })}
-        <Audio src={staticFile("final_audio_mixed.mp3")} />
+        <Audio src={staticFile("final_voiceover.mp3")} />
       </Sequence>
 
       {/* Always-on overlay (Section 7.1). Full-bleed 1920x1080 — no letterbox bars. */}

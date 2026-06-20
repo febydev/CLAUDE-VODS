@@ -58,10 +58,10 @@ export const SceneShell: React.FC<{ scene: Scene; isFirst: boolean }> = ({ scene
       <Vignette intensity={scene.vig} />
       {scene.dust ? <Dust count={40} opacity={0.1} /> : null}
 
-      {/* border glow ONLY on motion-graphic scenes (Section 4) */}
+      {/* border glow ONLY on motion-graphic scenes (Section 4) — full-screen, no edge gap */}
       {isReplace ? (
         <AbsoluteFill style={{ pointerEvents: "none", zIndex: 32 }}>
-          <div style={{ position: "absolute", inset: 18, boxShadow: `inset 0 0 ${60 + pulse * 30}px ${scene.glow}`, opacity: 0.35 + 0.2 * pulse, borderRadius: 4 }} />
+          <AbsoluteFill style={{ boxShadow: `inset 0 0 ${90 + pulse * 50}px ${scene.glow}`, opacity: 0.4 + 0.2 * pulse }} />
         </AbsoluteFill>
       ) : null}
 

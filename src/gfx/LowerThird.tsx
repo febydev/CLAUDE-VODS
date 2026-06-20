@@ -14,7 +14,7 @@ export const LowerThird: React.FC<{ label: string; accent: string; standalone?: 
   const banner = (
     <div style={{ position: "absolute", left: "7%", bottom: standalone ? "46%" : "18%", display: "flex", alignItems: "stretch", opacity: op, transform: `translateX(${x}px)`, zIndex: 20 }}>
       <div style={{ width: 10, background: accent, boxShadow: `0 0 18px ${accent}` }} />
-      <div style={{ background: "rgba(22,11,18,0.82)", padding: "16px 34px", borderTop: `1px solid ${accent}55`, borderBottom: `1px solid ${accent}55` }}>
+      <div style={{ background: "rgba(8,18,26,0.82)", padding: "16px 34px", borderTop: `1px solid ${accent}55`, borderBottom: `1px solid ${accent}55` }}>
         <div style={{ fontFamily: FONT, fontWeight: 800, fontSize: 52, letterSpacing: 4, color: "#fff" }}>{label}</div>
       </div>
     </div>
@@ -22,7 +22,7 @@ export const LowerThird: React.FC<{ label: string; accent: string; standalone?: 
 
   if (!standalone) return banner;
   return (
-    <AbsoluteFill style={{ background: `linear-gradient(135deg, #2a1722 0%, #160b12 100%)` }}>
+    <AbsoluteFill style={{ background: `linear-gradient(135deg, #16323f 0%, #08151d 100%)` }}>
       <AbsoluteFill style={{ background: `radial-gradient(circle at 30% 40%, ${accent}22, transparent 55%)` }} />
       {banner}
     </AbsoluteFill>

@@ -11,7 +11,7 @@ export const KineticText: React.FC<{ words: string[]; wordFrames: number[]; acce
   for (let i = 0; i < wordFrames.length; i++) if (frame >= wordFrames[i]) active = i;
 
   return (
-    <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 45%, #2a1822 0%, #150b12 72%)`, alignItems: "center", justifyContent: "center" }}>
+    <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 45%, #132a36 0%, #08151d 72%)`, alignItems: "center", justifyContent: "center" }}>
       <AbsoluteFill style={{ background: `radial-gradient(circle at 50% 50%, ${accent}1e, transparent 60%)` }} />
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
         {words.map((w, i) => {

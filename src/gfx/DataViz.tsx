@@ -11,7 +11,7 @@ export const DataViz: React.FC<{ kind: string; accent: string }> = ({ kind, acce
     const fill = interpolate(frame, [10, 40], [0, 0.46], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
     const barW = width * 0.66, barH = 120, x = (width - barW) / 2, y = height * 0.5 - barH / 2;
     return (
-      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 42%, #2a1722 0%, #150b12 72%)" }}>
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 42%, #16323f 0%, #08151d 72%)" }}>
         <div style={{ position: "absolute", top: height * 0.26, width: "100%", textAlign: "center", fontFamily: FONT, fontWeight: 800, fontSize: 56, color: "#fff",
           opacity: interpolate(frame, [0, 14], [0, 1], { extrapolateRight: "clamp" }) }}>ROMANTIC KISSING APPEARS IN</div>
         <svg width={width} height={height} style={{ position: "absolute" }}>
@@ -30,7 +30,7 @@ export const DataViz: React.FC<{ kind: string; accent: string }> = ({ kind, acce
   const n = 240;
   const shown = Math.floor(interpolate(frame, [6, 44], [0, n], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }));
   return (
-    <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, #321a26 0%, #160b12 72%)" }}>
+    <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, #163240 0%, #08151d 72%)" }}>
       <svg width={width} height={height} style={{ position: "absolute", opacity: 0.9 }}>
         {new Array(n).fill(0).map((_, i) => {
           if (i >= shown) return null;

@@ -10,7 +10,7 @@ export const CTACard: React.FC<{ big: string; sub: string; accent: string }> = (
   const subS = spring({ frame: frame - 28, fps, config: { damping: 200 } });
 
   return (
-    <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, #3a2230 0%, #160b12 80%)", alignItems: "center", justifyContent: "center" }}>
+    <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, #16323f 0%, #08151d 80%)", alignItems: "center", justifyContent: "center" }}>
       {/* gentle heart/particle burst */}
       {new Array(36).fill(0).map((_, i) => {
         const ang = random(`a${i}`) * Math.PI * 2;

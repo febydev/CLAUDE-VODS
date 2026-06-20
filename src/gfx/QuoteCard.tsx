@@ -10,7 +10,7 @@ export const QuoteCard: React.FC<{ text: string; accent: string; hero?: boolean 
   let wordIdx = 0;
 
   return (
-    <AbsoluteFill style={{ opacity: out, background: `radial-gradient(ellipse at 50% 38%, #3a2230 0%, #1a0e16 70%, #120a10 100%)` }}>
+    <AbsoluteFill style={{ opacity: out, background: `radial-gradient(ellipse at 50% 38%, #16323f 0%, #0b1a24 70%, #07131a 100%)` }}>
       <AbsoluteFill style={{ background: `radial-gradient(circle at 70% 20%, ${accent}22, transparent 55%)` }} />
       <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "0 9%" }}>
         <div style={{ textAlign: "center" }}>

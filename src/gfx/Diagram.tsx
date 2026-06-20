@@ -7,7 +7,7 @@ export const Diagram: React.FC<{ type: string; accent: string }> = ({ type, acce
   const frame = useCurrentFrame();
   const { width, height, fps } = useVideoConfig();
   const cx = width / 2, cy = height * 0.52;
-  const bg = "radial-gradient(ellipse at 50% 42%, #2a1722 0%, #150b12 74%)";
+  const bg = "radial-gradient(ellipse at 50% 42%, #132a36 0%, #08151d 74%)";
 
   const Title: React.FC<{ t: string }> = ({ t }) => (
     <div style={{ position: "absolute", top: "13%", width: "100%", textAlign: "center", fontFamily: FONT, fontWeight: 800,

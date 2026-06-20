@@ -13,7 +13,7 @@ export const NumberCounter: React.FC<{ to: number; label: string; suffix?: strin
   const bounce = frame >= 8 + dur ? 1 + lock * 0.08 : 1;
 
   return (
-    <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 45%, #321a26 0%, #160b12 72%)`, alignItems: "center", justifyContent: "center" }}>
+    <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 45%, #163240 0%, #08151d 72%)`, alignItems: "center", justifyContent: "center" }}>
       <AbsoluteFill style={{ background: `radial-gradient(circle at 50% 45%, ${accent}22, transparent 58%)` }} />
       <div style={{ textAlign: "center" }}>
         <div style={{ fontFamily: FONT, fontWeight: 800, fontSize: 200, color: "#fff", transform: `scale(${bounce})`, textShadow: `0 0 50px ${accent}cc`, lineHeight: 1 }}>

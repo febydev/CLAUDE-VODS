@@ -78,10 +78,10 @@ export const Stickman: React.FC<{ pose: string; accent: string }> = ({ pose, acc
   }
 
   return (
-    <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 40%, #ffe9dc 0%, #f3cdbe 70%, #e6b8a8 100%)" }}>
+    <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 40%, #e6f2f7 0%, #c1dce8 70%, #a6cad9 100%)" }}>
       {content}
       <div style={{ position: "absolute", bottom: "16%", width: "100%", textAlign: "center", fontFamily: FONT, fontWeight: 800,
-        fontSize: 50, letterSpacing: 2, color: "#3a1626",
+        fontSize: 50, letterSpacing: 2, color: "#16323f",
         opacity: interpolate(frame, [16, 30], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>{label}</div>
     </AbsoluteFill>
   );
