@@ -1,0 +1,22 @@
+{
+  "name": "alcohol-video",
+  "version": "1.0.0",
+  "description": "Cinematic Remotion build: When Did Ancient Humans Start Drinking Alcohol?",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Main out/final_video.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.481",
+    "@remotion/google-fonts": "4.0.481",
+    "@remotion/shapes": "4.0.481",
+    "@remotion/media-utils": "4.0.481",
+    "remotion": "4.0.481",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.5.4"
+  }
+}
