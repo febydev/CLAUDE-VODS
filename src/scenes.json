@@ -10,7 +10,7 @@
  "badgeEnd": 10264,
  "badges": [
   {
-   "label": "500-PERSON ETHNIC GROUP",
+   "label": "ETHNIC GROUP OF 500",
    "color": "#FFD27F",
    "revealAbs": 0
   },
@@ -20,7 +20,7 @@
    "revealAbs": 75
   },
   {
-   "label": "COMPLETE HETEROCHROMIA",
+   "label": "HETEROCHROMIA",
    "color": "#7FB2FF",
    "revealAbs": 110
   },
@@ -30,12 +30,12 @@
    "revealAbs": 164
   },
   {
-   "label": "TETRACHROMAT",
+   "label": "TETRACHROMACY",
    "color": "#C77DFF",
    "revealAbs": 197
   },
   {
-   "label": "PERFECT MEMORY",
+   "label": "HYPERTHYMESIA",
    "color": "#FFB86B",
    "revealAbs": 339
   }
@@ -49,6 +49,7 @@
    "duration": 41,
    "trigger": "You are sitting in a park",
    "text": "You are sitting in a park when a woman sits down beside you.",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "default",
    "trans": "cut",
@@ -57,7 +58,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 2,
@@ -67,6 +68,7 @@
    "duration": 76,
    "trigger": "when a woman sits down beside you",
    "text": "",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "default",
    "trans": "cut",
@@ -75,7 +77,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 3,
@@ -85,6 +87,7 @@
    "duration": 48,
    "trigger": "Her skin is white as snow",
    "text": "Her skin is white as snow.",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "emotional",
    "trans": "cut",
@@ -93,7 +96,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 4,
@@ -103,6 +106,7 @@
    "duration": 85,
    "trigger": "Her hair is silver and curls softly in the wind",
    "text": "Her hair is silver and curls softly in the wind.",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "emotional",
    "trans": "cut",
@@ -111,7 +115,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 5,
@@ -121,6 +125,7 @@
    "duration": 103,
    "trigger": "Her eyes are pale blue, almost glowing",
    "text": "Her eyes are pale blue, almost glowing.",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "emotional",
    "trans": "cut",
@@ -129,7 +134,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 6,
@@ -139,6 +144,7 @@
    "duration": 53,
    "trigger": "You ask her name",
    "text": "You ask her name. She says she is from a small tribe in",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "default",
    "trans": "cut",
@@ -147,25 +153,31 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 7,
    "img": 7,
-   "file": "rare7.png",
+   "file": null,
    "start": 406,
    "duration": 131,
    "trigger": "she is from a small tribe in sub Saharan Africa",
    "text": "sub Saharan Africa, and in that moment",
+   "kind": "MAP",
    "section": "P1_DREAM",
    "kb": "default",
    "trans": "cut",
    "exitZoom": false,
-   "parallax": true,
-   "glow": "gold",
+   "parallax": false,
+   "glow": null,
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {
+    "mode": "point",
+    "location": "subSaharanAfrica",
+    "label": "SUB-SAHARAN AFRICA",
+    "glow": "#3B82F6"
+   }
   },
   {
    "seq": 8,
@@ -175,6 +187,7 @@
    "duration": 105,
    "trigger": "you realize she is a Black woman with albinism",
    "text": "you realize she is a Black woman with albinism.",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "default",
    "trans": "cut",
@@ -183,7 +196,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 9,
@@ -193,6 +206,7 @@
    "duration": 49,
    "trigger": "You ask for her number",
    "text": "You ask for her number. She takes your phone and",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "default",
    "trans": "cut",
@@ -201,7 +215,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 10,
@@ -211,15 +225,16 @@
    "duration": 99,
    "trigger": "She takes your phone and types it with her left hand",
    "text": "types it with her left hand.",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "default",
    "trans": "cut",
    "exitZoom": false,
-   "parallax": true,
+   "parallax": false,
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 11,
@@ -229,6 +244,7 @@
    "duration": 42,
    "trigger": "You start talking every day",
    "text": "You start talking every day.",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "default",
    "trans": "cut",
@@ -237,25 +253,32 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 12,
    "img": 12,
-   "file": "rare12.png",
+   "file": null,
    "start": 832,
    "duration": 145,
    "trigger": "She is brilliant, funny, completely unlike anyone",
    "text": "She is brilliant, funny, completely unlike anyone you have ever met. And",
+   "kind": "RARITY_GRID",
    "section": "P1_DREAM",
    "kb": "default",
    "trans": "cut",
    "exitZoom": false,
-   "parallax": true,
-   "glow": "gold",
+   "parallax": false,
+   "glow": null,
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {
+    "cols": 25,
+    "rows": 20,
+    "lit": 1,
+    "label": "1 IN 500",
+    "glow": "#FFD700"
+   }
   },
   {
    "seq": 13,
@@ -265,6 +288,7 @@
    "duration": 48,
    "trigger": "just as you fall in love",
    "text": "just as you fall in love,",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "emotional",
    "trans": "cut",
@@ -273,7 +297,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 14,
@@ -283,6 +307,7 @@
    "duration": 48,
    "trigger": "your alarm goes off",
    "text": "your alarm goes off.",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "default",
    "trans": "dissolve",
@@ -291,7 +316,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 15,
@@ -301,6 +326,7 @@
    "duration": 45,
    "trigger": "It was a dream",
    "text": "It was a dream.",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "emotional",
    "trans": "cut",
@@ -309,7 +335,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 16,
@@ -319,15 +345,16 @@
    "duration": 137,
    "trigger": "You lie there, heart racing",
    "text": "You lie there, heart racing, asking yourself one question.",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "emotional",
    "trans": "cut",
    "exitZoom": false,
-   "parallax": true,
+   "parallax": false,
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 17,
@@ -337,6 +364,7 @@
    "duration": 92,
    "trigger": "Does a person like that actually exist?",
    "text": "Does a person like that actually exist?",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "emotional",
    "trans": "cut",
@@ -345,7 +373,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 18,
@@ -355,6 +383,7 @@
    "duration": 154,
    "trigger": "Statistically, yes",
    "text": "Statistically, yes. But that question leads somewhere much bigger. Out of",
+   "kind": "IMAGE",
    "section": "P1_DREAM",
    "kb": "default",
    "trans": "cut",
@@ -363,28 +392,29 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 19,
    "img": 19,
-   "file": "rare19.png",
+   "file": null,
    "start": 1501,
    "duration": 66,
    "trigger": "8 billion people alive right now",
    "text": "8 billion people alive right now,",
+   "kind": "SCALE_CROWD",
    "section": "FACT",
-   "kb": "diagram",
+   "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": {
-    "text": "8 BILLION",
-    "revealLocal": 2,
-    "climax": false
+   "content": {
+    "label": "8 BILLION",
+    "color": "#3B82F6",
+    "count": 1300
    }
   },
   {
@@ -395,6 +425,7 @@
    "duration": 103,
    "trigger": "what would the single rarest human on Earth actually look like?",
    "text": "what would the single rarest human on Earth actually look like?",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -403,7 +434,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 21,
@@ -413,6 +444,7 @@
    "duration": 253,
    "trigger": "Let's build that person, trait by trait",
    "text": "Let's build that person, trait by trait, and calculate exactly how rare they would be. We start with where they come from.",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -421,16 +453,17 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 22,
    "img": 22,
-   "file": "rare22.png",
+   "file": null,
    "start": 1923,
    "duration": 157,
    "trigger": "roughly 7,000 distinct ethnic groups on Earth",
    "text": "There are roughly 7,000 distinct ethnic groups on Earth. Most of humanity is",
+   "kind": "MAP",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -439,16 +472,21 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {
+    "mode": "worldDots",
+    "label": "7,000 ETHNIC GROUPS",
+    "glow": "#3B82F6"
+   }
   },
   {
    "seq": 23,
    "img": 23,
-   "file": "rare23.png",
+   "file": null,
    "start": 2080,
    "duration": 100,
    "trigger": "packed into a small number of massive populations",
    "text": "packed into a small number of massive populations.",
+   "kind": "PIE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -457,50 +495,56 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {
+    "percent": 70,
+    "label": "A FEW MASSIVE GROUPS",
+    "color": "#3B82F6"
+   }
   },
   {
    "seq": 24,
    "img": 24,
-   "file": "rare24.png",
+   "file": null,
    "start": 2180,
    "duration": 154,
    "trigger": "Han Chinese alone make up about 18 percent",
    "text": "Han Chinese alone make up about 18 percent of everyone alive. That is",
+   "kind": "PIE",
    "section": "FACT",
-   "kb": "diagram",
+   "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": {
-    "text": "18%",
-    "revealLocal": 54,
-    "climax": false
+   "content": {
+    "percent": 18,
+    "label": "HAN CHINESE · 18%",
+    "color": "#FF6B6B"
    }
   },
   {
    "seq": 25,
    "img": 25,
-   "file": "rare25.png",
+   "file": null,
    "start": 2334,
    "duration": 127,
    "trigger": "over 1.4 billion people from a single group",
    "text": "over 1.4 billion people from a single group. But",
+   "kind": "SCALE_CROWD",
    "section": "FACT",
-   "kb": "diagram",
+   "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": {
-    "text": "1.4 BILLION",
-    "revealLocal": 18,
-    "climax": false
+   "content": {
+    "label": "1.4 BILLION",
+    "color": "#E0563B",
+    "count": 1300
    }
   },
   {
@@ -511,6 +555,7 @@
    "duration": 135,
    "trigger": "at the other extreme sit some of the smallest ethnic groups",
    "text": "at the other extreme sit some of the smallest ethnic groups in existence.",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -519,16 +564,17 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 27,
    "img": 27,
-   "file": "rare27.png",
+   "file": null,
    "start": 2596,
    "duration": 277,
    "trigger": "The Sentinelese of the Andaman Islands",
    "text": "The Sentinelese of the Andaman Islands number somewhere between 50 and 400 people total. The Kawahiva of the Brazilian Amazon are thought to number",
+   "kind": "MAP",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -537,7 +583,13 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {
+    "mode": "point",
+    "location": "andaman",
+    "counterTo": 400,
+    "label": "THE SENTINELESE",
+    "glow": "#3B82F6"
+   }
   },
   {
    "seq": 28,
@@ -547,6 +599,7 @@
    "duration": 74,
    "trigger": "fewer than 30 individuals",
    "text": "fewer than 30 individuals.",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -555,16 +608,17 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 29,
    "img": 29,
-   "file": "rare29.png",
+   "file": null,
    "start": 2947,
    "duration": 158,
    "trigger": "The Spinifex people of Australia numbered only around 200",
    "text": "The Spinifex people of Australia numbered only around 200 at their last count. Let's",
+   "kind": "MAP",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -573,16 +627,24 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {
+    "mode": "point",
+    "location": "australia",
+    "counterTo": 200,
+    "counterPrefix": "~",
+    "label": "THE SPINIFEX",
+    "glow": "#3B82F6"
+   }
   },
   {
    "seq": 30,
    "img": 30,
-   "file": "rare30.png",
+   "file": null,
    "start": 3105,
    "duration": 253,
    "trigger": "place our rarest human in a group of just 500 people",
    "text": "place our rarest human in a group of just 500 people, out of a global population of 8 billion. That is",
+   "kind": "RARITY_GRID",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -591,16 +653,23 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {
+    "cols": 25,
+    "rows": 20,
+    "lit": 1,
+    "label": "1 IN 500",
+    "glow": "#3B82F6"
+   }
   },
   {
    "seq": 31,
    "img": 31,
-   "file": "rare31.png",
+   "file": null,
    "start": 3358,
    "duration": 93,
    "trigger": "500 divided by 8 billion",
    "text": "500 divided by 8 billion.",
+   "kind": "EQUATION",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -609,28 +678,32 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {
+    "a": "500",
+    "b": "8,000,000,000",
+    "result": "1 IN 16 MILLION"
+   }
   },
   {
    "seq": 32,
    "img": 32,
-   "file": "rare32.png",
+   "file": null,
    "start": 3451,
    "duration": 73,
    "trigger": "One in 16 million",
    "text": "One in 16 million.",
+   "kind": "RARITY_GRID",
    "section": "FACT",
-   "kb": "diagram",
+   "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": {
-    "text": "1 IN 16 MILLION",
-    "revealLocal": 19,
-    "climax": false
+   "content": {
+    "label": "1 IN 16 MILLION",
+    "glow": "#3B82F6"
    }
   },
   {
@@ -641,6 +714,7 @@
    "duration": 94,
    "trigger": "Now we add albinism",
    "text": "Now we add albinism. Albinism is caused by",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -649,7 +723,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 34,
@@ -659,15 +733,16 @@
    "duration": 107,
    "trigger": "mutations in the genes responsible for producing melanin",
    "text": "mutations in the genes responsible for producing melanin,",
+   "kind": "IMAGE",
    "section": "FACT",
-   "kb": "default",
+   "kb": "diagram",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 35,
@@ -677,15 +752,16 @@
    "duration": 147,
    "trigger": "pigment behind skin, hair, and eye color",
    "text": "the pigment behind skin, hair, and eye color. In complete albinism, that",
+   "kind": "IMAGE",
    "section": "FACT",
-   "kb": "default",
+   "kb": "diagram",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 36,
@@ -695,15 +771,16 @@
    "duration": 135,
    "trigger": "pigment production is severely reduced or entirely absent",
    "text": "pigment production is severely reduced or entirely absent, resulting in",
+   "kind": "IMAGE",
    "section": "FACT",
-   "kb": "default",
+   "kb": "diagram",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 37,
@@ -713,6 +790,7 @@
    "duration": 106,
    "trigger": "white or near white skin, pale or silver hair",
    "text": "white or near white skin, pale or silver hair, and",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -721,7 +799,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 38,
@@ -731,6 +809,26 @@
    "duration": 109,
    "trigger": "eyes that can appear light blue, gray, or even pink",
    "text": "eyes that can appear light blue, gray, or even pink.",
+   "kind": "IMAGE",
+   "section": "FACT",
+   "kb": "diagram",
+   "trans": "cut",
+   "exitZoom": false,
+   "parallax": false,
+   "glow": null,
+   "grade": "COOL",
+   "starfield": false,
+   "content": {}
+  },
+  {
+   "seq": 39,
+   "img": 39,
+   "file": null,
+   "start": 4222,
+   "duration": 205,
+   "trigger": "Albinism occurs in roughly one in 20,000 people globally",
+   "text": "Albinism occurs in roughly one in 20,000 people globally. Combined with our rare ethnicity,",
+   "kind": "RARITY_GRID",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -739,50 +837,30 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
-  },
-  {
-   "seq": 39,
-   "img": 39,
-   "file": "rare39.png",
-   "start": 4222,
-   "duration": 205,
-   "trigger": "Albinism occurs in roughly one in 20,000 people globally",
-   "text": "Albinism occurs in roughly one in 20,000 people globally. Combined with our rare ethnicity,",
-   "section": "FACT",
-   "kb": "diagram",
-   "trans": "cut",
-   "exitZoom": false,
-   "parallax": false,
-   "glow": null,
-   "grade": "COOL",
-   "starfield": false,
-   "overlay": {
-    "text": "1 IN 20,000",
-    "revealLocal": 55,
-    "climax": false
+   "content": {
+    "label": "1 IN 20,000",
+    "glow": "#3B82F6"
    }
   },
   {
    "seq": 40,
    "img": 40,
-   "file": "rare40.png",
+   "file": null,
    "start": 4427,
    "duration": 156,
    "trigger": "our person now has a one in 320 billion chance",
    "text": "our person now has a one in 320 billion chance of existing. Now let's talk about the eyes.",
+   "kind": "COSMIC",
    "section": "FACT",
-   "kb": "diagram",
+   "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": {
-    "text": "1 IN 320 BILLION",
-    "revealLocal": 35,
-    "climax": false
+   "content": {
+    "label": "1 IN 320 BILLION"
    }
   },
   {
@@ -793,6 +871,7 @@
    "duration": 74,
    "trigger": "Now let's talk about the eyes",
    "text": "",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -801,7 +880,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 42,
@@ -811,6 +890,7 @@
    "duration": 82,
    "trigger": "Green eyes are actually the rarest common eye color",
    "text": "Green eyes are actually the rarest common eye color,",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -819,28 +899,31 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 43,
    "img": 43,
-   "file": "rare43.png",
+   "file": null,
    "start": 4739,
    "duration": 77,
    "trigger": "occurring in about one in 50 people",
    "text": "occurring in about one in 50 people. But",
+   "kind": "RARITY_GRID",
    "section": "FACT",
-   "kb": "diagram",
+   "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": {
-    "text": "1 IN 50",
-    "revealLocal": 27,
-    "climax": false
+   "content": {
+    "cols": 10,
+    "rows": 5,
+    "lit": 1,
+    "label": "1 IN 50",
+    "glow": "#22B07A"
    }
   },
   {
@@ -851,6 +934,7 @@
    "duration": 161,
    "trigger": "that is not the rarest possible eye trait",
    "text": "that is not the rarest possible eye trait.",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -859,7 +943,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 45,
@@ -869,15 +953,16 @@
    "duration": 111,
    "trigger": "Complete heterochromia... two entirely different colored eyes",
    "text": "Complete heterochromia is a condition where a person has two entirely different colored eyes, such as",
+   "kind": "IMAGE",
    "section": "FACT",
-   "kb": "default",
+   "kb": "emotional",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 46,
@@ -887,15 +972,16 @@
    "duration": 85,
    "trigger": "one blue eye and one brown eye",
    "text": "one blue eye and one brown eye. It is",
+   "kind": "IMAGE",
    "section": "FACT",
-   "kb": "default",
+   "kb": "diagram",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 47,
@@ -905,6 +991,7 @@
    "duration": 53,
    "trigger": "usually present from birth",
    "text": "usually present from birth and is",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -913,7 +1000,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 48,
@@ -923,15 +1010,16 @@
    "duration": 85,
    "trigger": "caused by differences in how melanin is distributed",
    "text": "caused by differences in how melanin is distributed. In most cases it is",
+   "kind": "IMAGE",
    "section": "FACT",
-   "kb": "default",
+   "kb": "diagram",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 49,
@@ -941,6 +1029,7 @@
    "duration": 152,
    "trigger": "in most cases it is completely harmless",
    "text": "completely harmless. The odds of having this trait are about",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -949,28 +1038,28 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 50,
    "img": 50,
-   "file": "rare50.png",
+   "file": null,
    "start": 5463,
    "duration": 142,
    "trigger": "about one in 1,667 people",
    "text": "one in 1,667 people.",
+   "kind": "RARITY_GRID",
    "section": "FACT",
-   "kb": "diagram",
+   "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": {
-    "text": "1 IN 1,667",
-    "revealLocal": 2,
-    "climax": false
+   "content": {
+    "label": "1 IN 1,667",
+    "glow": "#3B82F6"
    }
   },
   {
@@ -981,6 +1070,7 @@
    "duration": 78,
    "trigger": "Now let's make this person left handed",
    "text": "Now let's make this person left handed.",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -989,7 +1079,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 52,
@@ -999,15 +1089,16 @@
    "duration": 174,
    "trigger": "Handedness is partly genetic, but no single gene controls it",
    "text": "Handedness is partly genetic, but no single gene controls it. Even",
+   "kind": "IMAGE",
    "section": "FACT",
-   "kb": "default",
+   "kb": "diagram",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 53,
@@ -1017,15 +1108,16 @@
    "duration": 109,
    "trigger": "identical twins... differ in handedness about 20 percent of the time",
    "text": "identical twins with nearly identical DNA differ in handedness about 20 percent of the time.",
+   "kind": "IMAGE",
    "section": "FACT",
-   "kb": "default",
+   "kb": "diagram",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 54,
@@ -1035,15 +1127,16 @@
    "duration": 171,
    "trigger": "left handed people often show more balanced brain activity",
    "text": "Left handed people often show more balanced brain activity between both hemispheres, while",
+   "kind": "IMAGE",
    "section": "FACT",
-   "kb": "default",
+   "kb": "diagram",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 55,
@@ -1053,6 +1146,26 @@
    "duration": 207,
    "trigger": "right handed people tend to concentrate language processing on one side",
    "text": "right handed people tend to concentrate language processing on one side. A conservative estimate puts left handedness at",
+   "kind": "IMAGE",
+   "section": "FACT",
+   "kb": "diagram",
+   "trans": "cut",
+   "exitZoom": false,
+   "parallax": false,
+   "glow": null,
+   "grade": "COOL",
+   "starfield": false,
+   "content": {}
+  },
+  {
+   "seq": 56,
+   "img": 56,
+   "file": null,
+   "start": 6344,
+   "duration": 242,
+   "trigger": "about 10 percent of the population. One in 10 people",
+   "text": "about 10 percent of the population. One in 10 people. Combining ethnicity, albinism, heterochromia, and left handedness,",
+   "kind": "RARITY_GRID",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -1061,50 +1174,33 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
-  },
-  {
-   "seq": 56,
-   "img": 56,
-   "file": "rare56.png",
-   "start": 6344,
-   "duration": 242,
-   "trigger": "about 10 percent of the population. One in 10 people",
-   "text": "about 10 percent of the population. One in 10 people. Combining ethnicity, albinism, heterochromia, and left handedness,",
-   "section": "FACT",
-   "kb": "diagram",
-   "trans": "cut",
-   "exitZoom": false,
-   "parallax": false,
-   "glow": null,
-   "grade": "COOL",
-   "starfield": false,
-   "overlay": {
-    "text": "1 IN 10",
-    "revealLocal": 8,
-    "climax": false
+   "content": {
+    "cols": 10,
+    "rows": 1,
+    "lit": 1,
+    "label": "1 IN 10",
+    "glow": "#3B82F6"
    }
   },
   {
    "seq": 57,
    "img": 57,
-   "file": "rare57.png",
+   "file": null,
    "start": 6586,
    "duration": 162,
    "trigger": "our person now has a one in 5.33 quadrillion chance",
    "text": "our person now has a one in 5.33 quadrillion chance of existing.",
+   "kind": "COSMIC",
    "section": "FACT",
-   "kb": "diagram",
+   "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": {
-    "text": "1 IN 5.33 QUADRILLION",
-    "revealLocal": 37,
-    "climax": false
+   "content": {
+    "label": "1 IN 5.33 QUADRILLION"
    }
   },
   {
@@ -1115,6 +1211,7 @@
    "duration": 43,
    "trigger": "We are just getting started",
    "text": "We are just getting started.",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -1123,7 +1220,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 59,
@@ -1133,15 +1230,16 @@
    "duration": 133,
    "trigger": "Most humans see color using three types of cone cells",
    "text": "Most humans see color using three types of cone cells in the retina,",
+   "kind": "IMAGE",
    "section": "FACT",
-   "kb": "default",
+   "kb": "diagram",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 60,
@@ -1151,24 +1249,7 @@
    "duration": 149,
    "trigger": "tuned roughly to blue, green, and red light",
    "text": "tuned roughly to blue, green, and red light. Combining signals from these cones lets",
-   "section": "FACT",
-   "kb": "default",
-   "trans": "cut",
-   "exitZoom": false,
-   "parallax": false,
-   "glow": null,
-   "grade": "COOL",
-   "starfield": false,
-   "overlay": null
-  },
-  {
-   "seq": 61,
-   "img": 61,
-   "file": "rare61.png",
-   "start": 7073,
-   "duration": 125,
-   "trigger": "the average person see about one million distinct colors",
-   "text": "the average person see about one million distinct colors. But",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "diagram",
    "trans": "cut",
@@ -1177,10 +1258,28 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": {
-    "text": "1 MILLION COLORS",
-    "revealLocal": 47,
-    "climax": false
+   "content": {}
+  },
+  {
+   "seq": 61,
+   "img": 61,
+   "file": null,
+   "start": 7073,
+   "duration": 125,
+   "trigger": "the average person see about one million distinct colors",
+   "text": "the average person see about one million distinct colors. But",
+   "kind": "MOSAIC",
+   "section": "FACT",
+   "kb": "default",
+   "trans": "cut",
+   "exitZoom": false,
+   "parallax": false,
+   "glow": null,
+   "grade": "COOL",
+   "starfield": false,
+   "content": {
+    "label": "1 MILLION COLORS",
+    "dense": false
    }
   },
   {
@@ -1191,24 +1290,7 @@
    "duration": 219,
    "trigger": "some people carry a fourth cone type",
    "text": "some people carry a fourth cone type, sensitive to wavelengths between red and green. These people are called tetrachromats, and they",
-   "section": "FACT",
-   "kb": "default",
-   "trans": "cut",
-   "exitZoom": false,
-   "parallax": false,
-   "glow": null,
-   "grade": "COOL",
-   "starfield": false,
-   "overlay": null
-  },
-  {
-   "seq": 63,
-   "img": 63,
-   "file": "rare63.png",
-   "start": 7417,
-   "duration": 128,
-   "trigger": "tetrachromats... may be able to distinguish up to 100 million colors",
-   "text": "may be able to distinguish up to 100 million colors.",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "diagram",
    "trans": "cut",
@@ -1217,10 +1299,28 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": {
-    "text": "100 MILLION COLORS",
-    "revealLocal": 54,
-    "climax": false
+   "content": {}
+  },
+  {
+   "seq": 63,
+   "img": 63,
+   "file": null,
+   "start": 7417,
+   "duration": 128,
+   "trigger": "tetrachromats... may be able to distinguish up to 100 million colors",
+   "text": "may be able to distinguish up to 100 million colors.",
+   "kind": "MOSAIC",
+   "section": "FACT",
+   "kb": "default",
+   "trans": "cut",
+   "exitZoom": false,
+   "parallax": false,
+   "glow": null,
+   "grade": "COOL",
+   "starfield": false,
+   "content": {
+    "label": "100 MILLION COLORS",
+    "dense": true
    }
   },
   {
@@ -1231,6 +1331,7 @@
    "duration": 120,
    "trigger": "Tetrachromacy is almost exclusively found in women",
    "text": "Tetrachromacy is almost exclusively found in women, because it is",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -1239,7 +1340,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 65,
@@ -1249,60 +1350,7 @@
    "duration": 73,
    "trigger": "linked to the X chromosome",
    "text": "linked to the X chromosome.",
-   "section": "FACT",
-   "kb": "default",
-   "trans": "cut",
-   "exitZoom": false,
-   "parallax": false,
-   "glow": null,
-   "grade": "COOL",
-   "starfield": false,
-   "overlay": null
-  },
-  {
-   "seq": 66,
-   "img": 66,
-   "file": "rare66.png",
-   "start": 7738,
-   "duration": 106,
-   "trigger": "About 12 percent of women carry the genetic mutation",
-   "text": "About 12 percent of women carry the genetic mutation, but",
-   "section": "FACT",
-   "kb": "default",
-   "trans": "cut",
-   "exitZoom": false,
-   "parallax": false,
-   "glow": null,
-   "grade": "COOL",
-   "starfield": false,
-   "overlay": null
-  },
-  {
-   "seq": 67,
-   "img": 67,
-   "file": "rare67.png",
-   "start": 7844,
-   "duration": 243,
-   "trigger": "only a small fraction actually develop a functioning fourth cone",
-   "text": "only a small fraction actually develop a functioning fourth cone. Researchers estimate true tetrachromacy occurs in",
-   "section": "FACT",
-   "kb": "default",
-   "trans": "cut",
-   "exitZoom": false,
-   "parallax": false,
-   "glow": null,
-   "grade": "COOL",
-   "starfield": false,
-   "overlay": null
-  },
-  {
-   "seq": 68,
-   "img": 68,
-   "file": "rare68.png",
-   "start": 8087,
-   "duration": 122,
-   "trigger": "roughly one in 80,000 people overall",
-   "text": "roughly one in 80,000 people overall. Finally,",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "diagram",
    "trans": "cut",
@@ -1311,10 +1359,75 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": {
-    "text": "1 IN 80,000",
-    "revealLocal": 13,
-    "climax": false
+   "content": {}
+  },
+  {
+   "seq": 66,
+   "img": 66,
+   "file": null,
+   "start": 7738,
+   "duration": 106,
+   "trigger": "About 12 percent of women carry the genetic mutation",
+   "text": "About 12 percent of women carry the genetic mutation, but",
+   "kind": "RARITY_GRID",
+   "section": "FACT",
+   "kb": "default",
+   "trans": "cut",
+   "exitZoom": false,
+   "parallax": false,
+   "glow": null,
+   "grade": "COOL",
+   "starfield": false,
+   "content": {
+    "cols": 10,
+    "rows": 10,
+    "lit": 12,
+    "label": "12 IN 100",
+    "glow": "#3B82F6"
+   }
+  },
+  {
+   "seq": 67,
+   "img": 67,
+   "file": null,
+   "start": 7844,
+   "duration": 243,
+   "trigger": "only a small fraction actually develop a functioning fourth cone",
+   "text": "only a small fraction actually develop a functioning fourth cone. Researchers estimate true tetrachromacy occurs in",
+   "kind": "FUNNEL",
+   "section": "FACT",
+   "kb": "default",
+   "trans": "cut",
+   "exitZoom": false,
+   "parallax": false,
+   "glow": null,
+   "grade": "COOL",
+   "starfield": false,
+   "content": {
+    "topLabel": "12% CARRY IT",
+    "bottomLabel": "FAR FEWER SEE IT"
+   }
+  },
+  {
+   "seq": 68,
+   "img": 68,
+   "file": null,
+   "start": 8087,
+   "duration": 122,
+   "trigger": "roughly one in 80,000 people overall",
+   "text": "roughly one in 80,000 people overall. Finally,",
+   "kind": "RARITY_GRID",
+   "section": "FACT",
+   "kb": "default",
+   "trans": "cut",
+   "exitZoom": false,
+   "parallax": false,
+   "glow": null,
+   "grade": "COOL",
+   "starfield": false,
+   "content": {
+    "label": "1 IN 80,000",
+    "glow": "#3B82F6"
    }
   },
   {
@@ -1325,6 +1438,7 @@
    "duration": 103,
    "trigger": "let's give our rarest human a mind that forgets nothing",
    "text": "let's give our rarest human a mind that forgets nothing.",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -1333,7 +1447,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 70,
@@ -1343,6 +1457,7 @@
    "duration": 156,
    "trigger": "Hyperthymesia, also called highly superior autobiographical memory",
    "text": "Hyperthymesia, also called highly superior autobiographical memory, is the ability to",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -1351,16 +1466,17 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 71,
    "img": 71,
-   "file": "rare71.png",
+   "file": null,
    "start": 8468,
    "duration": 131,
    "trigger": "recall nearly every single day of your life in extraordinary detail",
    "text": "recall nearly every single day of your life in extraordinary detail.",
+   "kind": "TIMELINE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -1369,7 +1485,9 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {
+    "label": "EVERY SINGLE DAY"
+   }
   },
   {
    "seq": 72,
@@ -1379,6 +1497,7 @@
    "duration": 145,
    "trigger": "Not just major events. Ordinary conversations. Random Tuesdays",
    "text": "Not just major events. Ordinary conversations. Random Tuesdays.",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -1387,7 +1506,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 73,
@@ -1397,6 +1516,7 @@
    "duration": 138,
    "trigger": "What you wore, what you ate, what the weather was like",
    "text": "What you wore, what you ate, what the weather was like. The condition was",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -1405,7 +1525,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 74,
@@ -1415,6 +1535,7 @@
    "duration": 84,
    "trigger": "formally identified in 2006",
    "text": "formally identified in 2006 after",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -1423,7 +1544,7 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 75,
@@ -1433,6 +1554,7 @@
    "duration": 213,
    "trigger": "a woman named Jill Price described being unable to stop remembering",
    "text": "a woman named Jill Price described being unable to stop remembering her entire past in vivid detail.",
+   "kind": "IMAGE",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -1441,16 +1563,17 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 76,
    "img": 76,
-   "file": "rare76.png",
+   "file": null,
    "start": 9179,
    "duration": 170,
    "trigger": "Fewer than 100 confirmed cases have ever been identified worldwide",
    "text": "Fewer than 100 confirmed cases have ever been identified worldwide. We will place",
+   "kind": "MAP",
    "section": "FACT",
    "kb": "default",
    "trans": "cut",
@@ -1459,28 +1582,32 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {
+    "mode": "globalScatter",
+    "label": "FEWER THAN 100 CASES",
+    "glow": "#3B82F6"
+   }
   },
   {
    "seq": 77,
    "img": 77,
-   "file": "rare77.png",
+   "file": null,
    "start": 9349,
    "duration": 192,
    "trigger": "the odds conservatively at 500 out of 8 billion. One in 16 million",
    "text": "the odds conservatively at 500 out of 8 billion. One in 16 million. So",
+   "kind": "RARITY_GRID",
    "section": "FACT",
-   "kb": "diagram",
+   "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": {
-    "text": "1 IN 16 MILLION",
-    "revealLocal": 49,
-    "climax": false
+   "content": {
+    "label": "1 IN 16 MILLION",
+    "glow": "#3B82F6"
    }
   },
   {
@@ -1491,6 +1618,7 @@
    "duration": 100,
    "trigger": "let's put it all together",
    "text": "let's put it all together. Our rarest human comes from",
+   "kind": "IMAGE",
    "section": "BADGE",
    "kb": "default",
    "trans": "cut",
@@ -1499,16 +1627,17 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 79,
    "img": 79,
-   "file": "rare79.png",
+   "file": null,
    "start": 9641,
    "duration": 75,
    "trigger": "an ethnic group of just 500 people",
    "text": "an ethnic group of just 500 people.",
+   "kind": "BADGE",
    "section": "BADGE",
    "kb": "default",
    "trans": "cut",
@@ -1517,16 +1646,17 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 80,
    "img": 80,
-   "file": "rare80.png",
+   "file": null,
    "start": 9716,
    "duration": 35,
    "trigger": "They have albinism",
    "text": "They have albinism.",
+   "kind": "BADGE",
    "section": "BADGE",
    "kb": "default",
    "trans": "cut",
@@ -1535,16 +1665,17 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 81,
    "img": 81,
-   "file": "rare81.png",
+   "file": null,
    "start": 9751,
    "duration": 54,
    "trigger": "They have complete heterochromia",
    "text": "They have complete heterochromia.",
+   "kind": "BADGE",
    "section": "BADGE",
    "kb": "default",
    "trans": "cut",
@@ -1553,16 +1684,17 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 82,
    "img": 82,
-   "file": "rare82.png",
+   "file": null,
    "start": 9805,
    "duration": 33,
    "trigger": "They are left handed",
    "text": "They are left handed.",
+   "kind": "BADGE",
    "section": "BADGE",
    "kb": "default",
    "trans": "cut",
@@ -1571,16 +1703,17 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 83,
    "img": 83,
-   "file": "rare83.png",
+   "file": null,
    "start": 9838,
    "duration": 142,
    "trigger": "They are a tetrachromat, able to see 100 million colors",
    "text": "They are a tetrachromat, able to see 100 million colors. And they",
+   "kind": "BADGE",
    "section": "BADGE",
    "kb": "default",
    "trans": "cut",
@@ -1589,16 +1722,17 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 84,
    "img": 84,
-   "file": "rare84.png",
+   "file": null,
    "start": 9980,
    "duration": 284,
    "trigger": "remember nearly every day of their life in perfect detail",
    "text": "remember nearly every day of their life in perfect detail. The combined probability of a single person having every one of these traits is roughly",
+   "kind": "BADGE",
    "section": "BADGE",
    "kb": "default",
    "trans": "cut",
@@ -1607,72 +1741,71 @@
    "glow": null,
    "grade": "COOL",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 85,
    "img": 85,
-   "file": "rare85.png",
+   "file": null,
    "start": 10264,
    "duration": 165,
    "trigger": "one in 6.83 septillion",
    "text": "one in 6.83 septillion. To put that number in perspective,",
+   "kind": "COSMIC",
    "section": "COSMIC",
-   "kb": "emotional",
+   "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
-   "glow": "blue",
-   "grade": "COSMIC",
-   "starfield": true,
-   "overlay": {
-    "text": "1 IN 6.83 SEPTILLION",
-    "revealLocal": 2,
-    "climax": true
+   "glow": null,
+   "grade": "COOL",
+   "starfield": false,
+   "content": {
+    "label": "1 IN 6.83 SEPTILLION",
+    "climax": true,
+    "figure": true
    }
   },
   {
    "seq": 86,
    "img": 86,
-   "file": "rare86.png",
+   "file": null,
    "start": 10429,
    "duration": 291,
    "trigger": "the number of stars in the observable universe is estimated at around one septillion",
    "text": "the number of stars in the observable universe is estimated at around one septillion. If you tried to match that number using",
+   "kind": "COSMIC",
    "section": "COSMIC",
-   "kb": "diagram",
+   "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
-   "glow": "blue",
-   "grade": "COSMIC",
-   "starfield": true,
-   "overlay": {
-    "text": "1 SEPTILLION STARS",
-    "revealLocal": 129,
-    "climax": false
+   "glow": null,
+   "grade": "COOL",
+   "starfield": false,
+   "content": {
+    "label": "≈ EVERY STAR IN THE UNIVERSE"
    }
   },
   {
    "seq": 87,
    "img": 87,
-   "file": "rare87.png",
+   "file": null,
    "start": 10720,
    "duration": 175,
    "trigger": "grains of sand... more sand than exists on 910,000 planet Earths",
    "text": "grains of sand, you would need more sand than exists on 910,000 planet Earths combined. And",
+   "kind": "SCALE_STACK",
    "section": "COSMIC",
-   "kb": "diagram",
+   "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
-   "glow": "blue",
-   "grade": "COSMIC",
-   "starfield": true,
-   "overlay": {
-    "text": "910,000 EARTHS OF SAND",
-    "revealLocal": 70,
-    "climax": false
+   "glow": null,
+   "grade": "COOL",
+   "starfield": false,
+   "content": {
+    "label": "910,000 EARTHS OF SAND"
    }
   },
   {
@@ -1683,33 +1816,87 @@
    "duration": 133,
    "trigger": "this still is not even the rarest possible human",
    "text": "this still is not even the rarest possible human. We have not touched",
+   "kind": "IMAGE",
    "section": "COSMIC",
    "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
-   "glow": null,
+   "glow": "blue",
    "grade": "COSMIC",
-   "starfield": true,
-   "overlay": null
+   "starfield": false,
+   "content": {}
   },
   {
    "seq": 89,
    "img": 89,
-   "file": "rare89.png",
+   "file": null,
    "start": 11028,
    "duration": 255,
    "trigger": "rare blood types, physical mutations, or dozens of other traits",
    "text": "rare blood types, physical mutations, or dozens of other traits that could push those odds even further into the impossible.",
+   "kind": "BADGE",
    "section": "COSMIC",
    "kb": "default",
    "trans": "cut",
    "exitZoom": false,
    "parallax": false,
    "glow": null,
-   "grade": "COSMIC",
-   "starfield": true,
-   "overlay": null
+   "grade": "COOL",
+   "starfield": false,
+   "content": {
+    "final": true,
+    "badges": [
+     {
+      "label": "ETHNIC GROUP OF 500",
+      "color": "#FFD27F",
+      "revealAbs": 0
+     },
+     {
+      "label": "ALBINISM",
+      "color": "#EDEFF5",
+      "revealAbs": 8
+     },
+     {
+      "label": "HETEROCHROMIA",
+      "color": "#7FB2FF",
+      "revealAbs": 16
+     },
+     {
+      "label": "LEFT-HANDED",
+      "color": "#34D399",
+      "revealAbs": 24
+     },
+     {
+      "label": "TETRACHROMACY",
+      "color": "#C77DFF",
+      "revealAbs": 32
+     },
+     {
+      "label": "HYPERTHYMESIA",
+      "color": "#FFB86B",
+      "revealAbs": 40
+     },
+     {
+      "label": "RARE BLOOD TYPES",
+      "color": "#ffffff",
+      "revealAbs": 58,
+      "ghost": true
+     },
+     {
+      "label": "PHYSICAL MUTATIONS",
+      "color": "#ffffff",
+      "revealAbs": 58,
+      "ghost": true
+     },
+     {
+      "label": "+ MORE",
+      "color": "#ffffff",
+      "revealAbs": 58,
+      "ghost": true
+     }
+    ]
+   }
   },
   {
    "seq": 90,
@@ -1719,6 +1906,7 @@
    "duration": 133,
    "trigger": "Here is the actual point of all of this",
    "text": "Here is the actual point of all of this. Every single person alive is",
+   "kind": "IMAGE",
    "section": "P9_CLOSE",
    "kb": "emotional",
    "trans": "cut",
@@ -1727,7 +1915,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 91,
@@ -1737,6 +1925,7 @@
    "duration": 143,
    "trigger": "a combination of traits and probabilities",
    "text": "a combination of traits and probabilities that, when you actually calculate them,",
+   "kind": "IMAGE",
    "section": "P9_CLOSE",
    "kb": "emotional",
    "trans": "cut",
@@ -1745,7 +1934,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 92,
@@ -1755,6 +1944,7 @@
    "duration": 89,
    "trigger": "should statistically almost never happen",
    "text": "should statistically almost never happen.",
+   "kind": "IMAGE",
    "section": "P9_CLOSE",
    "kb": "emotional",
    "trans": "cut",
@@ -1763,7 +1953,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 93,
@@ -1773,6 +1963,7 @@
    "duration": 118,
    "trigger": "You already beat odds most of us never even think about",
    "text": "You already beat odds most of us never even think about. There are",
+   "kind": "IMAGE",
    "section": "P9_CLOSE",
    "kb": "emotional",
    "trans": "cut",
@@ -1781,7 +1972,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 94,
@@ -1791,6 +1982,7 @@
    "duration": 74,
    "trigger": "plenty of fish in the sea",
    "text": "plenty of fish in the sea. But",
+   "kind": "IMAGE",
    "section": "P9_CLOSE",
    "kb": "emotional",
    "trans": "cut",
@@ -1799,7 +1991,7 @@
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 95,
@@ -1809,15 +2001,16 @@
    "duration": 183,
    "trigger": "there has never been, and will never again be, anyone exactly like you",
    "text": "there has never been, and will never again be, anyone exactly like you.",
+   "kind": "IMAGE",
    "section": "P9_CLOSE",
    "kb": "emotional",
    "trans": "cut",
    "exitZoom": false,
-   "parallax": true,
+   "parallax": false,
    "glow": "gold",
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   },
   {
    "seq": 96,
@@ -1827,6 +2020,7 @@
    "duration": 150,
    "trigger": "END CARD",
    "text": "",
+   "kind": "CTA",
    "section": "END",
    "kb": "default",
    "trans": "dissolve",
@@ -1835,7 +2029,7 @@
    "glow": null,
    "grade": "WARM",
    "starfield": false,
-   "overlay": null
+   "content": {}
   }
  ]
 }

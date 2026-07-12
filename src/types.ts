@@ -2,11 +2,9 @@ export type Section = "P1_DREAM" | "FACT" | "BADGE" | "COSMIC" | "P9_CLOSE" | "E
 export type KB = "default" | "emotional" | "diagram";
 export type Trans = "cut" | "dissolve" | "zoomthrough";
 
-export type Overlay = {
-  text: string;         // e.g. "1 IN 6.83 SEPTILLION"
-  revealLocal: number;  // frame (relative to scene start) when the number is spoken — punch-in lands here
-  climax?: boolean;     // the septillion payoff — larger, holds alone
-};
+export type Kind =
+  | "IMAGE" | "RARITY_GRID" | "PIE" | "SCALE_CROWD" | "MAP" | "EQUATION"
+  | "COSMIC" | "MOSAIC" | "FUNNEL" | "TIMELINE" | "BADGE" | "SCALE_STACK" | "CTA";
 
 export type Scene = {
   seq: number;
@@ -16,18 +14,19 @@ export type Scene = {
   duration: number;
   trigger: string;
   text: string;
+  kind: Kind;
   section: Section;
   kb: KB;
-  trans: Trans;         // entrance transition for THIS scene
-  exitZoom: boolean;    // zoom-through OUT on this scene's tail (pivot into next topic)
+  trans: Trans;
+  exitZoom: boolean;
   parallax: boolean;
   glow: "gold" | "blue" | null;
   grade: "WARM" | "COOL" | "COSMIC";
   starfield: boolean;
-  overlay: Overlay | null;
+  content: any; // component data payload
 };
 
-export type Badge = { label: string; color: string; revealAbs: number };
+export type Badge = { label: string; color: string; revealAbs: number; ghost?: boolean };
 
 export type Data = {
   fps: number;
