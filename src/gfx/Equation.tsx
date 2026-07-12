@@ -1,5 +1,5 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { FONT, PUNCH, INK, GOLD, creamBg } from "../theme";
+import { FONT, PUNCH, INK, GOLD, creamBg, fitFont } from "../theme";
 
 // 500 ÷ 8,000,000,000 = 1 in 16,000,000. Numbers punch in, equals bar draws, result punches larger.
 export const Equation: React.FC<{ a: string; b: string; result: string }> = ({ a, b, result }) => {
@@ -19,7 +19,7 @@ export const Equation: React.FC<{ a: string; b: string; result: string }> = ({ a
         <span style={{ fontSize: 76, ...P(16) }}>{b}</span>
       </div>
       <div style={{ height: 8, borderRadius: 4, background: INK, width: barW, margin: "34px 0" }} />
-      <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 120, color: INK, ...P(46),
+      <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: fitFont(result, 120), color: INK, ...P(46),
         textShadow: `0 6px 26px ${GOLD}66` }}>{result}</div>
     </AbsoluteFill>
   );

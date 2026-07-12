@@ -1,5 +1,5 @@
 import { AbsoluteFill, interpolate, random, useCurrentFrame, useVideoConfig } from "remotion";
-import { FONT, PUNCH, INK, SCI, creamBg } from "../theme";
+import { FONT, PUNCH, INK, SCI, creamBg, fitFont } from "../theme";
 
 // "8 billion" / "1.4 billion": thousands of tiny figures explode from center into a dense
 // edge-to-edge field (staggered), then hold — the density IS the message.
@@ -23,7 +23,7 @@ export const ScaleCrowd: React.FC<{ label: string; color?: string; count?: numbe
           background: color, opacity: 0.85 * p, transform: `scale(${s})` }} />;
       })}
       <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
-        <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 130, color: INK, opacity: labO, transform: `scale(${labS})`,
+        <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: fitFont(label, 130), color: INK, opacity: labO, transform: `scale(${labS})`,
           textShadow: "0 4px 26px rgba(255,255,255,0.9), 0 0 60px rgba(255,255,255,0.7)" }}>{label}</div>
       </AbsoluteFill>
     </AbsoluteFill>

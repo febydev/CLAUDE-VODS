@@ -1,5 +1,5 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { FONT, PUNCH, ARRIVE, GREY_DOT, INK, creamBg, textShadowOutline } from "../theme";
+import { FONT, PUNCH, ARRIVE, GREY_DOT, INK, creamBg, textShadowOutline, fitFont } from "../theme";
 
 // "1 in X" reveal: a field of grey dots implying scale, ONE (or N) igniting with a
 // radar-ping halo, and the precise number punching in below. Grid = concept of scale;
@@ -72,7 +72,7 @@ const PunchLabel: React.FC<{ frame: number; at: number; text: string; glow: stri
   const s = interpolate(frame, [at, at + 11], [0.92, 1], { easing: PUNCH, extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const o = interpolate(frame, [at, at + 6], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
-    <span style={{ display: "inline-block", fontFamily: FONT, fontWeight: 900, fontSize: 96, color: INK,
+    <span style={{ display: "inline-block", fontFamily: FONT, fontWeight: 900, fontSize: fitFont(text, 96), color: INK,
       transform: `scale(${s})`, opacity: o, letterSpacing: 1, textShadow: `0 4px 18px ${glow}88` }}>{text}</span>
   );
 };

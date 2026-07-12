@@ -43,3 +43,7 @@ export const RED = "#FF6B6B";
 export const creamBg = (accent: string) =>
   `radial-gradient(ellipse at 50% 42%, #FFFBF2 0%, ${CREAM} 58%, #EFE3CC 100%)`;
 export const COSMIC_BG = "radial-gradient(ellipse at 50% 48%, #0a0f1e 0%, #05070f 60%, #010206 100%)";
+
+// keep big on-screen labels from overflowing the frame width
+export const fitFont = (text: string, base: number, maxW = 1660) =>
+  Math.min(base, Math.floor(maxW / Math.max(1, text.length * 0.6)));

@@ -1,5 +1,5 @@
 import { AbsoluteFill, interpolate, random, useCurrentFrame, useVideoConfig } from "remotion";
-import { FONT, PUNCH, INK, creamBg } from "../theme";
+import { FONT, PUNCH, INK, creamBg, fitFont } from "../theme";
 
 // Tetrachromacy color count: a mosaic fills via a diagonal wipe. The 100M version is denser
 // (smaller cells + a finer subdivision layer) to read as "even more color resolution".
@@ -25,7 +25,7 @@ export const ColorMosaic: React.FC<{ label: string; dense?: boolean }> = ({ labe
           background: `hsl(${hue}, 78%, 62%)`, opacity: o }} />;
       })}
       <div style={{ position: "absolute", bottom: "10%", width: "100%", textAlign: "center",
-        fontFamily: FONT, fontWeight: 900, fontSize: 92, color: INK, opacity: labO, transform: `scale(${labS})`,
+        fontFamily: FONT, fontWeight: 900, fontSize: fitFont(label, 92), color: INK, opacity: labO, transform: `scale(${labS})`,
         textShadow: "0 3px 16px rgba(255,255,255,0.9)" }}>{label}</div>
     </AbsoluteFill>
   );

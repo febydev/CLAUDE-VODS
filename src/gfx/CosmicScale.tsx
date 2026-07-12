@@ -1,5 +1,5 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { FONT, PUNCH, BLUE, textShadowOutline } from "../theme";
+import { FONT, PUNCH, BLUE, textShadowOutline, fitFont } from "../theme";
 import { StarField } from "../fx/StarField";
 
 // Astronomical-odds beats + the septillion climax: a deep star field with the number over it.
@@ -23,9 +23,9 @@ export const CosmicScale: React.FC<{ label: string; climax?: boolean; figure?: b
           </div>
         </AbsoluteFill>
       ) : null}
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: climax ? "flex-end" : "center", paddingBottom: climax ? "14%" : 0 }}>
-        <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: climax ? 168 : 104, color: "#fff",
-          opacity: o, transform: `scale(${s})`, textShadow: textShadowOutline, textAlign: "center", maxWidth: "90%", lineHeight: 1.05 }}>{label}</div>
+      <AbsoluteFill style={{ alignItems: "center", justifyContent: climax ? "flex-end" : "center", paddingBottom: climax ? "14%" : 0, paddingLeft: "5%", paddingRight: "5%" }}>
+        <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: fitFont(label, climax ? 150 : 92), color: "#fff",
+          opacity: o, transform: `scale(${s})`, textShadow: textShadowOutline, textAlign: "center", maxWidth: "92%", lineHeight: 1.06 }}>{label}</div>
       </AbsoluteFill>
     </AbsoluteFill>
   );
