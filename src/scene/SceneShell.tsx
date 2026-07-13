@@ -15,7 +15,7 @@ import { Timeline } from "../gfx/Timeline";
 import { LowerThird } from "../gfx/LowerThird";
 import { CTACard } from "../gfx/CTACard";
 
-const CROSSFADE = 14;
+const CROSSFADE = 8;
 const HERO = new Set([101, 102]); // final closing-line hero quote
 
 const Built: React.FC<{ scene: Scene }> = ({ scene }) => {

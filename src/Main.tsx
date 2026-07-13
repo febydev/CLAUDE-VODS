@@ -6,7 +6,7 @@ import { Intro } from "./Intro";
 import { FilmGrain } from "./overlay/FilmGrain";
 
 const D = data as unknown as Data;
-const CROSSFADE = 14;
+const CROSSFADE = 8;
 
 export const Main: React.FC = () => {
   const scenes = D.scenes;
