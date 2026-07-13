@@ -1,7 +1,7 @@
 {
   "name": "city-no-streets-video",
   "version": "1.0.0",
-  "description": "Cinematic Remotion build: The City With No Streets (Çatalhöyük)",
+  "description": "Cinematic Remotion build: The City With No Streets (Catalhoyuk)",
   "scripts": {
     "dev": "remotion studio",
     "render": "remotion render Main out/final_video.mp4"
