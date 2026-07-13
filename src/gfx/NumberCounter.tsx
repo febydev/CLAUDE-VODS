@@ -1,0 +1,30 @@
+import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { FONT, MG_BG } from "../theme";
+
+// Number counter (Section 9 Type 6). Ticks up 0->target (ease), bounce on completion.
+export const NumberCounter: React.FC<{ to: number; label: string; suffix?: string; prefix?: string; accent: string }> = ({ to, label, suffix = "", prefix = "", accent }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const dur = 48;
+  const prog = interpolate(frame, [8, 8 + dur], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const eased = 1 - Math.pow(1 - prog, 3);
+  const val = Math.round(eased * to);
+  const lock = spring({ frame: frame - (8 + dur), fps, config: { damping: 9, mass: 0.5 } });
+  const bounce = frame >= 8 + dur ? 1 + lock * 0.08 : 1;
+  const big = to >= 1000000 ? 168 : 200;
+
+  return (
+    <AbsoluteFill style={{ background: MG_BG, alignItems: "center", justifyContent: "center" }}>
+      <AbsoluteFill style={{ background: `radial-gradient(circle at 50% 45%, ${accent}24, transparent 58%)` }} />
+      <div style={{ textAlign: "center" }}>
+        <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: big, color: "#FFF6EA", transform: `scale(${bounce})`, textShadow: `0 0 50px ${accent}cc`, lineHeight: 1 }}>
+          {prefix}{val.toLocaleString("en-US")}{suffix}
+        </div>
+        <div style={{ fontFamily: FONT, fontWeight: 700, fontSize: 40, letterSpacing: 4, color: accent, marginTop: 14,
+          opacity: interpolate(frame, [12, 28], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
+          {label}
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
