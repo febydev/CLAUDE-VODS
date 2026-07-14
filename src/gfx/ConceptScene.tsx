@@ -33,8 +33,10 @@ export const ConceptScene: React.FC<{scene: Scene}> = ({scene}) => {
   const cy = 565;
   const labelProgress = (index:number) => {
     const spread = Math.max(1, labels.length - 1);
-    const start = 7 + (buildEnd - 15) * (index / spread);
-    return interpolate(frame, [start, Math.min(buildEnd, start + 8)], [0,1], {extrapolateLeft:"clamp", extrapolateRight:"clamp"});
+    const requestedStart = 7 + (buildEnd - 15) * (index / spread);
+    const start = Math.min(buildEnd - 1, requestedStart);
+    const end = Math.max(start + 1, Math.min(buildEnd, start + 8));
+    return interpolate(frame, [start, end], [0,1], {extrapolateLeft:"clamp", extrapolateRight:"clamp"});
   };
   let body: React.ReactNode;
 
