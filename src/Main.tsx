@@ -3,6 +3,7 @@ import data from "./scenes.json";
 import type {Data, Scene} from "./types";
 import {FilmGrain} from "./overlay/FilmGrain";
 import {SentenceSequence} from "./scene/SentenceSequence";
+import {SFX_CUES} from "./sfx";
 
 const D = data as Data;
 const groups: Scene[][] = [];
@@ -19,6 +20,9 @@ export const Main: React.FC = () => (
         </Sequence>
       );
     })}
+    {SFX_CUES.map((cue) => <Sequence key={`${cue.frame}-${cue.file}`} from={cue.frame} durationInFrames={cue.file === "04_menu_camera_click.wav" ? 27 : 55} layout="none" name={`SFX-${cue.frame}`}>
+      <Audio src={staticFile(`sfx/${cue.file}`)} volume={cue.volume}/>
+    </Sequence>)}
     <Audio src={staticFile("final_voiceover.mp3")}/>
     <FilmGrain/>
   </AbsoluteFill>

@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "remotion studio",
     "typecheck": "tsc --noEmit",
+    "audit:source": "node scripts/source-audit.cjs",
     "render": "remotion render Main out/final_video.mp4"
   },
   "dependencies": {
