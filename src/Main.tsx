@@ -147,7 +147,8 @@ export const Main: React.FC = () => {
       <Audio src={staticFile("voiceover.mp3")} />
 
       {/* ── single music bed, deliberately quiet so the narrator is clearly the loudest thing in the
-             mix: base 0.072, peak 0.117, EQ-carved around the voice when the bed is built.
+             mix: base 0.045 (26.9 dB under the voice), peak 0.073, EQ-carved around the voice band
+             when the bed is built.
              It also implements section 11's most important instruction: "the violence is carried
              entirely by absence. At S028, S208 and S209 the mix builds and then simply stops rather
              than delivering an impact." The keyframe table swells into each of those three moments
