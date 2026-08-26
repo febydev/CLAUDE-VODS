@@ -1,0 +1,20 @@
+# Build outputs
+INBREEDING_CLONE/video/out/
+INBREEDING_CLONE/video/node_modules/
+INBREEDING_CLONE/reports/*.json
+!INBREEDING_CLONE/reports/validation_summary.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp

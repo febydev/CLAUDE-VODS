@@ -1,0 +1,93 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "totalFrames": 16142,
+  "durationSeconds": 538.0666666666667,
+  "overlapFrames": 30,
+  "numChunks": 8,
+  "chunks": [
+    {
+      "i": 0,
+      "from_frame": 0,
+      "to_frame": 2047,
+      "frames": 2047,
+      "duration_s": 68.23333333333333,
+      "output": "chunk_00.mp4",
+      "label": "S000\u2013S067"
+    },
+    {
+      "i": 1,
+      "from_frame": 1987,
+      "to_frame": 4064,
+      "frames": 2077,
+      "duration_s": 69.23333333333333,
+      "output": "chunk_01.mp4",
+      "label": "S067\u2013S134"
+    },
+    {
+      "i": 2,
+      "from_frame": 4004,
+      "to_frame": 6081,
+      "frames": 2077,
+      "duration_s": 69.23333333333333,
+      "output": "chunk_02.mp4",
+      "label": "S134\u2013S201"
+    },
+    {
+      "i": 3,
+      "from_frame": 6021,
+      "to_frame": 8098,
+      "frames": 2077,
+      "duration_s": 69.23333333333333,
+      "output": "chunk_03.mp4",
+      "label": "S201\u2013S268"
+    },
+    {
+      "i": 4,
+      "from_frame": 8038,
+      "to_frame": 10115,
+      "frames": 2077,
+      "duration_s": 69.23333333333333,
+      "output": "chunk_04.mp4",
+      "label": "S268\u2013S336"
+    },
+    {
+      "i": 5,
+      "from_frame": 10055,
+      "to_frame": 12132,
+      "frames": 2077,
+      "duration_s": 69.23333333333333,
+      "output": "chunk_05.mp4",
+      "label": "S336\u2013S403"
+    },
+    {
+      "i": 6,
+      "from_frame": 12072,
+      "to_frame": 14149,
+      "frames": 2077,
+      "duration_s": 69.23333333333333,
+      "output": "chunk_06.mp4",
+      "label": "S403\u2013S470"
+    },
+    {
+      "i": 7,
+      "from_frame": 14089,
+      "to_frame": 16142,
+      "frames": 2053,
+      "duration_s": 68.43333333333334,
+      "output": "chunk_07.mp4",
+      "label": "S470\u2013S537"
+    }
+  ],
+  "trim_leading_frames": [
+    0,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30
+  ]
+}

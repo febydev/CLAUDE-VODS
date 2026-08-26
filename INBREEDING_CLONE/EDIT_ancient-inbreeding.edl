@@ -1,0 +1,421 @@
+TITLE: ANCIENT-INBREEDING
+FCM: NON-DROP FRAME
+
+001  VOFULL   A     C        00:00:00:00 00:08:58:02 00:00:00:00 00:08:58:02
+* FROM CLIP NAME: VOICEOVER_ancient-inbreeding_FULL.mp3
+
+002  ANC      V     C        00:00:00:00 00:00:04:23 00:00:00:00 00:00:04:23
+* FROM CLIP NAME: IB_ANC_all/A (1).png
+* SHOT: S001  STYLE: KENBURNS-PUSH  TRIGGER: Picture your entire world. Not your
+
+003  ANC      V     C        00:00:00:00 00:00:06:22 00:00:04:23 00:00:11:16
+* FROM CLIP NAME: IB_ANC_all/A (2).png
+* SHOT: S002  STYLE: KENBURNS-PULL  TRIGGER: It is about 30 people. You
+
+004  ANC      V     C        00:00:00:00 00:00:06:27 00:00:11:16 00:00:18:13
+* FROM CLIP NAME: IB_ANC_all/A (3).png
+* SHOT: S003  STYLE: PARALLAX-PAN-L  TRIGGER: Now look around that group and
+
+005  VOX      V     C        00:00:00:00 00:00:06:04 00:00:18:13 00:00:24:17
+* FROM CLIP NAME: IB_VOX_all/V (1).png
+* OVERLAY: "ALL OF THEM, FAMILY" @ x=0.5 y=0.08 top-center zone=TOP-BAND
+* SHOT: S004  STYLE: TREE-TRACE  TRIGGER: Your grandmother. Your aunts, your uncles,
+
+006  ANC      V     C        00:00:00:00 00:00:05:13 00:00:24:17 00:00:30:00
+* FROM CLIP NAME: IB_ANC_all/A (4).png
+* SHOT: S005  STYLE: BREATHING-HOLD  TRIGGER: And this is the quiet, uncomfortable
+
+007  VOX      V     C        00:00:00:00 00:00:05:28 00:00:30:00 00:00:35:28
+* FROM CLIP NAME: IB_VOX_all/V (2).png
+* OVERLAY: "BANDS, NOT VILLAGES" @ x=0.5 y=0.84 bottom-center zone=LOWER-BAND
+* SHOT: S006  STYLE: PAN-RIGHT  TRIGGER: Because for most of our existence,
+
+008  ANC      V     C        00:00:00:00 00:00:07:29 00:00:35:28 00:00:43:28
+* FROM CLIP NAME: IB_ANC_all/A (5).png
+* SHOT: S007  STYLE: WALK-TRACK  TRIGGER: Groups of maybe 25 to 50.
+
+009  ANC      V     C        00:00:00:00 00:00:05:04 00:00:43:28 00:00:49:02
+* FROM CLIP NAME: IB_ANC_all/A (6).png
+* SHOT: S008  STYLE: PARALLAX-PAN-R  TRIGGER: So here is the question this
+
+010  VOX      V     C        00:00:00:00 00:00:05:19 00:00:49:02 00:00:54:21
+* FROM CLIP NAME: IB_VOX_all/V (3).png
+* OVERLAY: "SO WHO?" @ x=0.06 y=0.09 top-left zone=UPPER-LEFT
+* SHOT: S009  STYLE: PUSH-IN  TRIGGER: who do you have children with?
+
+011  VOX      V     C        00:00:00:00 00:00:04:20 00:00:54:21 00:00:59:11
+* FROM CLIP NAME: IB_VOX_all/V (4).png
+* OVERLAY: "EVERYONE CARRIES A FEW" @ x=0.94 y=0.09 top-right zone=UPPER-RIGHT
+* SHOT: S010  STYLE: PULL-BACK  TRIGGER: Let us be clear about why.
+
+012  VOX      V     C        00:00:00:00 00:00:06:08 00:00:59:11 00:01:05:19
+* FROM CLIP NAME: IB_VOX_all/V (5).png
+* OVERLAY: "THE GOOD COPY COVERS" @ x=0.94 y=0.82 bottom-right zone=LOWER-RIGHT
+* SHOT: S011  STYLE: PAPER-WIPE-IN  TRIGGER: Harmful copies. Usually hidden and harmless.
+
+013  ANC      V     C        00:00:00:00 00:00:06:27 00:01:05:19 00:01:12:16
+* FROM CLIP NAME: IB_ANC_all/A (7).png
+* SHOT: S012  STYLE: GENTLE-SWAY  TRIGGER: But when two close relatives have
+
+014  VOX      V     C        00:00:00:00 00:00:05:01 00:01:12:16 00:01:17:17
+* FROM CLIP NAME: IB_VOX_all/V (6).png
+* OVERLAY: "THE SAME BROKEN COPY" @ x=0.06 y=0.82 bottom-left zone=LOWER-LEFT
+* SHOT: S013  STYLE: TREE-TRACE  TRIGGER: inherited from the same recent ancestor.
+
+015  VOX      V     C        00:00:00:00 00:00:06:29 00:01:17:17 00:01:24:16
+* FROM CLIP NAME: IB_VOX_all/V (7).png
+* OVERLAY: "NOTHING LEFT TO COVER" @ x=0.06 y=0.09 top-left zone=UPPER-LEFT
+* SHOT: S014  STYLE: WEB-EXPAND  TRIGGER: and no working one, there is
+
+016  VOX      V     C        00:00:00:00 00:00:05:14 00:01:24:16 00:01:30:00
+* FROM CLIP NAME: IB_VOX_all/V (8).png
+* OVERLAY: "ARITHMETIC, NOT A CURSE" @ x=0.94 y=0.09 top-right zone=UPPER-RIGHT
+* SHOT: S015  STYLE: SWEEP-HIGHLIGHT  TRIGGER: It is arithmetic. You are stacking
+
+017  ANC      V     C        00:00:00:00 00:00:05:07 00:01:30:00 00:01:35:07
+* FROM CLIP NAME: IB_ANC_all/A (8).png
+* SHOT: S016  STYLE: BREATHING-HOLD  TRIGGER: The results in a small population
+
+018  VOX      V     C        00:00:00:00 00:00:04:22 00:01:35:07 00:01:39:29
+* FROM CLIP NAME: IB_VOX_all/V (9).png
+* OVERLAY: "THE COST WAS REAL" @ x=0.5 y=0.08 top-center zone=TOP-BAND
+* SHOT: S017  STYLE: PAN-LEFT  TRIGGER: Higher infant mortality. Weaker immune responses.
+
+019  VOX      V     C        00:00:00:00 00:00:04:16 00:01:39:29 00:01:44:15
+* FROM CLIP NAME: IB_VOX_all/V (10).png
+* OVERLAY: "THE GROUP SHRINKS" @ x=0.94 y=0.82 bottom-right zone=LOWER-RIGHT
+* SHOT: S018  STYLE: PUSH-IN  TRIGGER: Reduced fertility. Which is its own
+
+020  VOX      V     C        00:00:00:00 00:00:05:16 00:01:44:15 00:01:50:01
+* FROM CLIP NAME: IB_VOX_all/V (11).png
+* OVERLAY: "AND TIGHTENS" @ x=0.06 y=0.82 bottom-left zone=LOWER-LEFT
+* SHOT: S019  STYLE: PULL-BACK  TRIGGER: Which makes everyone even more closely
+
+021  VOX      V     C        00:00:00:00 00:00:08:01 00:01:50:01 00:01:58:02
+* FROM CLIP NAME: IB_VOX_all/V (12).png
+* OVERLAY: "AN EXTINCTION VORTEX" @ x=0.5 y=0.84 bottom-center zone=LOWER-BAND
+* SHOT: S020  STYLE: IRIS-REVEAL  TRIGGER: Biologists have a name for that
+
+022  ANC      V     C        00:00:00:00 00:00:07:05 00:01:58:02 00:02:05:07
+* FROM CLIP NAME: IB_ANC_all/A (9).png
+* SHOT: S021  STYLE: FIRELIGHT-FLICKER  TRIGGER: So this was not a moral
+
+023  VOX      V     C        00:00:00:00 00:00:05:02 00:02:05:07 00:02:10:09
+* FROM CLIP NAME: IB_VOX_all/V (13).png
+* OVERLAY: "A SITE IN RUSSIA" @ x=0.5 y=0.08 top-center zone=TOP-BAND
+* SHOT: S022  STYLE: PAN-RIGHT  TRIGGER: There is a site in Russia
+
+024  ANC      V     C        00:00:00:00 00:00:06:22 00:02:10:09 00:02:17:01
+* FROM CLIP NAME: IB_ANC_all/A (10).png
+* SHOT: S023  STYLE: SLOW-RISE  TRIGGER: And it is one of the
+
+025  VOX      V     C        00:00:00:00 00:00:06:04 00:02:17:01 00:02:23:05
+* FROM CLIP NAME: IB_VOX_all/V (14).png
+* OVERLAY: "THOUSANDS OF BEADS" @ x=0.06 y=0.09 top-left zone=UPPER-LEFT
+* SHOT: S024  STYLE: PAPER-WIPE-IN  TRIGGER: Thousands of beads carved from mammoth
+
+026  ANC      V     C        00:00:00:00 00:00:07:26 00:02:23:05 00:02:31:01
+* FROM CLIP NAME: IB_ANC_all/A (11).png
+* SHOT: S025  STYLE: FIRELIGHT-FLICKER  TRIGGER: Carved figures. Someone spent an enormous
+
+027  ANC      V     C        00:00:00:00 00:00:04:24 00:02:31:01 00:02:35:25
+* FROM CLIP NAME: IB_ANC_all/A (12).png
+* SHOT: S026  STYLE: BREATHING-HOLD  TRIGGER: Deliberately arranged. If you saw it,
+
+028  VOX      V     C        00:00:00:00 00:00:06:04 00:02:35:25 00:02:41:29
+* FROM CLIP NAME: IB_VOX_all/V (15).png
+* OVERLAY: "LOOKS LIKE FAMILY" @ x=0.94 y=0.09 top-right zone=UPPER-RIGHT
+* SHOT: S027  STYLE: SWEEP-HIGHLIGHT  TRIGGER: A father, sons, relatives laid to
+
+029  VOX      V     C        00:00:00:00 00:00:04:22 00:02:41:29 00:02:46:21
+* FROM CLIP NAME: IB_VOX_all/V (16).png
+* OVERLAY: "THEN THEY SEQUENCED IT" @ x=0.94 y=0.82 bottom-right zone=LOWER-RIGHT
+* SHOT: S028  STYLE: PUSH-IN  TRIGGER: researchers sequenced their genomes. And the
+
+030  VOX      V     C        00:00:00:00 00:00:04:28 00:02:46:21 00:02:51:19
+* FROM CLIP NAME: IB_VOX_all/V (17).png
+* OVERLAY: "BARELY RELATED" @ x=0.06 y=0.82 bottom-left zone=LOWER-LEFT
+* SHOT: S029  STYLE: TREE-TRACE  TRIGGER: The people buried together were barely
+
+031  VOX      V     C        00:00:00:00 00:00:04:19 00:02:51:19 00:02:56:08
+* FROM CLIP NAME: IB_VOX_all/V (18).png
+* OVERLAY: "NO CLOSE LINK" @ x=0.06 y=0.09 top-left zone=UPPER-LEFT
+* SHOT: S030  STYLE: PULL-BACK  TRIGGER: Some showed no close relationship at
+
+032  VOX      V     C        00:00:00:00 00:00:07:26 00:02:56:08 00:03:04:04
+* FROM CLIP NAME: IB_VOX_all/V (19).png
+* OVERLAY: "THAT IS NOT RANDOM" @ x=0.5 y=0.84 bottom-center zone=LOWER-BAND
+* SHOT: S031  STYLE: PAN-LEFT  TRIGGER: In a small band, if people
+
+033  ANC      V     C        00:00:00:00 00:00:05:10 00:03:04:04 00:03:09:13
+* FROM CLIP NAME: IB_ANC_all/A (13).png
+* SHOT: S032  STYLE: KENBURNS-PUSH  TRIGGER: First cousins. That is what random
+
+034  ANC      V     C        00:00:00:00 00:00:05:14 00:03:09:13 00:03:14:27
+* FROM CLIP NAME: IB_ANC_all/A (14).png
+* SHOT: S033  STYLE: KENBURNS-PULL  TRIGGER: Which means the pairing was not
+
+035  VOX      V     C        00:00:00:00 00:00:05:10 00:03:14:27 00:03:20:07
+* FROM CLIP NAME: IB_VOX_all/V (20).png
+* OVERLAY: "THEY HAD A SYSTEM" @ x=0.94 y=0.09 top-right zone=UPPER-RIGHT
+* SHOT: S034  STYLE: PAPER-WIPE-IN  TRIGGER: band. 34 ,000 years ago, they
+
+036  ANC      V     C        00:00:00:00 00:00:06:02 00:03:20:07 00:03:26:09
+* FROM CLIP NAME: IB_ANC_all/A (15).png
+* SHOT: S035  STYLE: PARALLAX-PAN-L  TRIGGER: you can see the machinery of
+
+037  ANC      V     C        00:00:00:00 00:00:05:12 00:03:26:09 00:03:31:21
+* FROM CLIP NAME: IB_ANC_all/A (16).png
+* SHOT: S036  STYLE: WALK-TRACK  TRIGGER: Someone leaves. In the overwhelming majority
+
+038  VOX      V     C        00:00:00:00 00:00:07:01 00:03:31:21 00:03:38:22
+* FROM CLIP NAME: IB_VOX_all/V (21).png
+* OVERLAY: "SOMEONE ALWAYS LEAVES" @ x=0.5 y=0.08 top-center zone=TOP-BAND
+* SHOT: S037  STYLE: PAN-LEFT  TRIGGER: young adults do not stay in
+
+039  ANC      V     C        00:00:00:00 00:00:05:17 00:03:38:22 00:03:44:09
+* FROM CLIP NAME: IB_ANC_all/A (17).png
+* SHOT: S038  STYLE: WALK-TRACK  TRIGGER: Sometimes it is the women who
+
+040  ANC      V     C        00:00:00:00 00:00:05:17 00:03:44:09 00:03:49:26
+* FROM CLIP NAME: IB_ANC_all/A (18).png
+* SHOT: S039  STYLE: PARALLAX-PAN-R  TRIGGER: it happens right at the age
+
+041  VOX      V     C        00:00:00:00 00:00:05:08 00:03:49:26 00:03:55:04
+* FROM CLIP NAME: IB_VOX_all/V (22).png
+* OVERLAY: "THE TRAP BREAKS" @ x=0.94 y=0.82 bottom-right zone=LOWER-RIGHT
+* SHOT: S040  STYLE: SWEEP-HIGHLIGHT  TRIGGER: If every generation sends some of
+
+042  VOX      V     C        00:00:00:00 00:00:05:06 00:03:55:04 00:04:00:10
+* FROM CLIP NAME: IB_VOX_all/V (23).png
+* OVERLAY: "PART OF SOMETHING BIGGER" @ x=0.5 y=0.84 bottom-center zone=LOWER-BAND
+* SHOT: S041  STYLE: WEB-EXPAND  TRIGGER: your band stops being a closed
+
+043  ANC      V     C        00:00:00:00 00:00:04:20 00:04:00:10 00:04:05:00
+* FROM CLIP NAME: IB_ANC_all/A (19).png
+* SHOT: S042  STYLE: WALK-TRACK  TRIGGER: The second piece is that bands
+
+044  ANC      V     C        00:00:00:00 00:00:04:14 00:04:05:00 00:04:09:14
+* FROM CLIP NAME: IB_ANC_all/A (20).png
+* SHOT: S043  STYLE: GENTLE-SWAY  TRIGGER: Foraging groups across the world gathered
+
+045  ANC      V     C        00:00:00:00 00:00:05:14 00:04:09:14 00:04:14:28
+* FROM CLIP NAME: IB_ANC_all/A (21).png
+* SHOT: S044  STYLE: SLOW-RISE  TRIGGER: when a water source was reliable,
+
+046  ANC      V     C        00:00:00:00 00:00:05:04 00:04:14:28 00:04:20:02
+* FROM CLIP NAME: IB_ANC_all/A (22).png
+* SHOT: S045  STYLE: FIRELIGHT-FLICKER  TRIGGER: separate bands would come together for
+
+047  ANC      V     C        00:00:00:00 00:00:06:11 00:04:20:02 00:04:26:13
+* FROM CLIP NAME: IB_ANC_all/A (23).png
+* SHOT: S046  STYLE: KENBURNS-PUSH  TRIGGER: They were where partners were found,
+
+048  VOX      V     C        00:00:00:00 00:00:05:25 00:04:26:13 00:04:32:08
+* FROM CLIP NAME: IB_VOX_all/V (24).png
+* OVERLAY: "HUNDREDS OF MILES" @ x=0.5 y=0.08 top-center zone=TOP-BAND
+* SHOT: S047  STYLE: PAN-LEFT  TRIGGER: And this is why archaeologists find
+
+049  ANC      V     C        00:00:00:00 00:00:05:16 00:04:32:08 00:04:37:23
+* FROM CLIP NAME: IB_ANC_all/A (24).png
+* SHOT: S048  STYLE: KENBURNS-PULL  TRIGGER: Shell's far inland. Distinctive stone carried
+
+050  VOX      V     C        00:00:00:00 00:00:05:26 00:04:37:23 00:04:43:20
+* FROM CLIP NAME: IB_VOX_all/V (25).png
+* OVERLAY: "NETWORKS OF PEOPLE" @ x=0.5 y=0.84 bottom-center zone=LOWER-BAND
+* SHOT: S049  STYLE: WEB-EXPAND  TRIGGER: networks of people who knew each
+
+051  VOX      V     C        00:00:00:00 00:00:07:10 00:04:43:20 00:04:50:29
+* FROM CLIP NAME: IB_VOX_all/V (26).png
+* OVERLAY: "RULES ABOUT WHO" @ x=0.06 y=0.82 bottom-left zone=LOWER-LEFT
+* SHOT: S050  STYLE: TREE-TRACE  TRIGGER: Every documented human culture has rules
+
+052  VOX      V     C        00:00:00:00 00:00:07:25 00:04:50:29 00:04:58:25
+* FROM CLIP NAME: IB_VOX_all/V (27).png
+* OVERLAY: "THE RULES VARIED" @ x=0.5 y=0.08 top-center zone=TOP-BAND
+* SHOT: S051  STYLE: WEB-EXPAND  TRIGGER: Some societies forbid one kind of
+
+053  ANC      V     C        00:00:00:00 00:00:05:11 00:04:58:25 00:05:04:05
+* FROM CLIP NAME: IB_ANC_all/A (25).png
+* SHOT: S052  STYLE: FIRELIGHT-FLICKER  TRIGGER: Those rules were doing real work.
+
+054  VOX      V     C        00:00:00:00 00:00:07:04 00:05:04:05 00:05:11:09
+* FROM CLIP NAME: IB_VOX_all/V (28).png
+* OVERLAY: "WITHOUT KNOWING WHY" @ x=0.06 y=0.09 top-left zone=UPPER-LEFT
+* SHOT: S053  STYLE: PUSH-IN  TRIGGER: into something a group could enforce
+
+055  ANC      V     C        00:00:00:00 00:00:04:29 00:05:11:09 00:05:16:08
+* FROM CLIP NAME: IB_ANC_all/A (26).png
+* SHOT: S054  STYLE: BREATHING-HOLD  TRIGGER: But there is a layer beneath
+
+056  ANC      V     C        00:00:00:00 00:00:07:14 00:05:16:08 00:05:23:22
+* FROM CLIP NAME: IB_ANC_all/A (27).png
+* SHOT: S055  STYLE: PARALLAX-PAN-L  TRIGGER: Researchers describe an effect where people
+
+057  VOX      V     C        00:00:00:00 00:00:05:20 00:05:23:22 00:05:29:13
+* FROM CLIP NAME: IB_VOX_all/V (29).png
+* OVERLAY: "NO SPARK AT ALL" @ x=0.5 y=0.84 bottom-center zone=LOWER-BAND
+* SHOT: S056  STYLE: PAN-RIGHT  TRIGGER: regardless of whether they are actually
+
+058  ANC      V     C        00:00:00:00 00:00:05:11 00:05:29:13 00:05:34:24
+* FROM CLIP NAME: IB_ANC_all/A (28).png
+* SHOT: S057  STYLE: PARALLAX-PAN-R  TRIGGER: If you grew up around someone
+
+059  VOX      V     C        00:00:00:00 00:00:05:19 00:05:34:24 00:05:40:13
+* FROM CLIP NAME: IB_VOX_all/V (30).png
+* OVERLAY: "FILED AS FAMILY" @ x=0.94 y=0.09 top-right zone=UPPER-RIGHT
+* SHOT: S058  STYLE: PULL-BACK  TRIGGER: And desire simply does not arrive.
+
+060  ANC      V     C        00:00:00:00 00:00:05:12 00:05:40:13 00:05:45:25
+* FROM CLIP NAME: IB_ANC_all/A (29).png
+* SHOT: S059  STYLE: GENTLE-SWAY  TRIGGER: Even before anyone could explain why.
+
+061  VOX      V     C        00:00:00:00 00:00:06:02 00:05:45:25 00:05:51:27
+* FROM CLIP NAME: IB_VOX_all/V (31).png
+* OVERLAY: "BOTH POINT OUTWARD" @ x=0.5 y=0.08 top-center zone=TOP-BAND
+* SHOT: S060  STYLE: PAN-RIGHT  TRIGGER: look outside the people they grew
+
+062  VOX      V     C        00:00:00:00 00:00:05:25 00:05:51:27 00:05:57:22
+* FROM CLIP NAME: IB_VOX_all/V (32).png
+* OVERLAY: "ANOTHER KIND OF HUMAN" @ x=0.5 y=0.84 bottom-center zone=LOWER-BAND
+* SHOT: S061  STYLE: PAN-LEFT  TRIGGER: And now for the part that
+
+063  ANC      V     C        00:00:00:00 00:00:05:05 00:05:57:22 00:06:02:28
+* FROM CLIP NAME: IB_ANC_all/A (30).png
+* SHOT: S062  STYLE: SLOW-RISE  TRIGGER: facing the same problem and getting
+
+064  VOX      V     C        00:00:00:00 00:00:05:15 00:06:02:28 00:06:08:13
+* FROM CLIP NAME: IB_VOX_all/V (33).png
+* OVERLAY: "LONG IDENTICAL STRETCHES" @ x=0.94 y=0.82 bottom-right zone=LOWER-RIGHT
+* SHOT: S063  STYLE: PAPER-WIPE-IN  TRIGGER: sequenced, the pattern was strikingly different
+
+065  VOX      V     C        00:00:00:00 00:00:07:05 00:06:08:13 00:06:15:17
+* FROM CLIP NAME: IB_VOX_all/V (34).png
+* OVERLAY: "A TREE FOLDED BACK" @ x=0.06 y=0.82 bottom-left zone=LOWER-LEFT
+* SHOT: S064  STYLE: TREE-TRACE  TRIGGER: in Siberia had parents who were
+
+066  ANC      V     C        00:00:00:00 00:00:05:12 00:06:15:17 00:06:20:29
+* FROM CLIP NAME: IB_ANC_all/A (31).png
+* SHOT: S065  STYLE: KENBURNS-PUSH  TRIGGER: The signature of a family tree
+
+067  VOX      V     C        00:00:00:00 00:00:05:11 00:06:20:29 00:06:26:11
+* FROM CLIP NAME: IB_VOX_all/V (35).png
+* OVERLAY: "SCATTERED AND ALONE" @ x=0.5 y=0.08 top-center zone=TOP-BAND
+* SHOT: S066  STYLE: WEB-EXPAND  TRIGGER: Neanderthal populations show low genetic diversity
+
+068  VOX      V     C        00:00:00:00 00:00:05:11 00:06:26:11 00:06:31:22
+* FROM CLIP NAME: IB_VOX_all/V (36).png
+* OVERLAY: "FEWER CONNECTIONS" @ x=0.5 y=0.84 bottom-center zone=LOWER-BAND
+* SHOT: S067  STYLE: TREE-TRACE  TRIGGER: yielded a small group that included
+
+069  ANC      V     C        00:00:00:00 00:00:06:05 00:06:31:22 00:06:37:26
+* FROM CLIP NAME: IB_ANC_all/A (32).png
+* SHOT: S068  STYLE: BREATHING-HOLD  TRIGGER: very small community. The picture that
+
+070  VOX      V     C        00:00:00:00 00:00:06:11 00:06:37:26 00:06:44:07
+* FROM CLIP NAME: IB_VOX_all/V (37).png
+* OVERLAY: "MANY FACTORS" @ x=0.06 y=0.09 top-left zone=UPPER-LEFT
+* SHOT: S069  STYLE: SWEEP-HIGHLIGHT  TRIGGER: more isolated groups. With fewer of
+
+071  VOX      V     C        00:00:00:00 00:00:04:19 00:06:44:07 00:06:48:26
+* FROM CLIP NAME: IB_VOX_all/V (38).png
+* OVERLAY: "DO NOT OVERREACH" @ x=0.94 y=0.09 top-right zone=UPPER-RIGHT
+* SHOT: S070  STYLE: PUSH-IN  TRIGGER: Now, I want to be careful
+
+072  VOX      V     C        00:00:00:00 00:00:05:10 00:06:48:26 00:06:54:06
+* FROM CLIP NAME: IB_VOX_all/V (39).png
+* OVERLAY: "NETWORKS ABSORB SHOCK" @ x=0.5 y=0.08 top-center zone=TOP-BAND
+* SHOT: S071  STYLE: WEB-EXPAND  TRIGGER: Neanderthals did not go extinct simply
+
+073  VOX      V     C        00:00:00:00 00:00:05:13 00:06:54:06 00:06:59:19
+* FROM CLIP NAME: IB_VOX_all/V (40).png
+* OVERLAY: "SAME PROBLEM, TWO ANSWERS" @ x=0.5 y=0.84 bottom-center zone=LOWER-BAND
+* SHOT: S072  STYLE: PAN-RIGHT  TRIGGER: population size and chance were all
+
+074  ANC      V     C        00:00:00:00 00:00:04:29 00:06:59:19 00:07:04:18
+* FROM CLIP NAME: IB_ANC_all/A (33).png
+* SHOT: S073  STYLE: SLOW-RISE  TRIGGER: low diversity and small isolated populations
+
+075  VOX      V     C        00:00:00:00 00:00:06:10 00:07:04:18 00:07:10:28
+* FROM CLIP NAME: IB_VOX_all/V (41).png
+* OVERLAY: "IT CARRIED MORE" @ x=0.5 y=0.08 top-center zone=TOP-BAND
+* SHOT: S074  STYLE: WEB-EXPAND  TRIGGER: When something goes wrong, a large
+
+076  ANC      V     C        00:00:00:00 00:00:06:17 00:07:10:28 00:07:17:15
+* FROM CLIP NAME: IB_ANC_all/A (34).png
+* SHOT: S075  STYLE: KENBURNS-PULL  TRIGGER: Two kinds of human. The same
+
+077  ANC      V     C        00:00:00:00 00:00:05:18 00:07:17:15 00:07:23:03
+* FROM CLIP NAME: IB_ANC_all/A (35).png
+* SHOT: S076  STYLE: PARALLAX-PAN-L  TRIGGER: That difference is worth sitting with.
+
+078  ANC      V     C        00:00:00:00 00:00:06:11 00:07:23:03 00:07:29:14
+* FROM CLIP NAME: IB_ANC_all/A (36).png
+* SHOT: S077  STYLE: FIRELIGHT-FLICKER  TRIGGER: Think about what those partner networks
+
+079  VOX      V     C        00:00:00:00 00:00:04:25 00:07:29:14 00:07:34:09
+* FROM CLIP NAME: IB_VOX_all/V (42).png
+* OVERLAY: "THE SAME NETWORK" @ x=0.5 y=0.84 bottom-center zone=LOWER-BAND
+* SHOT: S078  STYLE: WEB-EXPAND  TRIGGER: Where they camped. When they gathered.
+
+080  VOX      V     C        00:00:00:00 00:00:07:10 00:07:34:09 00:07:41:19
+* FROM CLIP NAME: IB_VOX_all/V (43).png
+* OVERLAY: "STITCHED TOGETHER" @ x=0.5 y=0.08 top-center zone=TOP-BAND
+* SHOT: S079  STYLE: TREE-TRACE  TRIGGER: You needed a relationship with people
+
+081  ANC      V     C        00:00:00:00 00:00:05:25 00:07:41:19 00:07:47:13
+* FROM CLIP NAME: IB_ANC_all/A (37).png
+* SHOT: S080  STYLE: SLOW-RISE  TRIGGER: It carried information. Which valley flooded?
+
+082  VOX      V     C        00:00:00:00 00:00:05:09 00:07:47:13 00:07:52:22
+* FROM CLIP NAME: IB_VOX_all/V (44).png
+* OVERLAY: "THIRTY IS NOT ENOUGH" @ x=0.5 y=0.84 bottom-center zone=LOWER-BAND
+* SHOT: S081  STYLE: PAN-LEFT  TRIGGER: It carried materials, shells and pigment
+
+083  ANC      V     C        00:00:00:00 00:00:05:13 00:07:52:22 00:07:58:05
+* FROM CLIP NAME: IB_ANC_all/A (38).png
+* SHOT: S082  STYLE: FIRELIGHT-FLICKER  TRIGGER: carried stories and language and technique.
+
+084  VOX      V     C        00:00:00:00 00:00:05:11 00:07:58:05 00:08:03:16
+* FROM CLIP NAME: IB_VOX_all/V (45).png
+* OVERLAY: "ALMOST STRANGERS" @ x=0.94 y=0.82 bottom-right zone=LOWER-RIGHT
+* SHOT: S083  STYLE: PULL-BACK  TRIGGER: the same network that moved everything
+
+085  ANC      V     C        00:00:00:00 00:00:06:01 00:08:03:16 00:08:09:17
+* FROM CLIP NAME: IB_ANC_all/A (39).png
+* SHOT: S084  STYLE: BREATHING-HOLD  TRIGGER: distances partly because we had to
+
+086  VOX      V     C        00:00:00:00 00:00:05:27 00:08:09:17 00:08:15:14
+* FROM CLIP NAME: IB_VOX_all/V (46).png
+* OVERLAY: "ON PURPOSE" @ x=0.5 y=0.08 top-center zone=TOP-BAND
+* SHOT: S085  STYLE: PAN-LEFT  TRIGGER: And some part of us understood
+
+087  VOX      V     C        00:00:00:00 00:00:05:10 00:08:15:14 00:08:20:24
+* FROM CLIP NAME: IB_VOX_all/V (47).png
+* OVERLAY: "THEY COULD NOT SEE" @ x=0.06 y=0.82 bottom-left zone=LOWER-LEFT
+* SHOT: S086  STYLE: PAPER-WIPE-IN  TRIGGER: Thousands of ivory beads and people
+
+088  ANC      V     C        00:00:00:00 00:00:06:09 00:08:20:24 00:08:27:03
+* FROM CLIP NAME: IB_ANC_all/A (40).png
+* SHOT: S087  STYLE: PARALLAX-PAN-R  TRIGGER: You were looking at something extraordinary.
+
+089  ANC      V     C        00:00:00:00 00:00:07:14 00:08:27:03 00:08:34:17
+* FROM CLIP NAME: IB_ANC_all/A (41).png
+* SHOT: S088  STYLE: FIRELIGHT-FLICKER  TRIGGER: Humans were reaching beyond their own
+
+090  ANC      V     C        00:00:00:00 00:00:05:14 00:08:34:17 00:08:40:01
+* FROM CLIP NAME: IB_ANC_all/A (42).png
+* SHOT: S089  STYLE: WALK-TRACK  TRIGGER: They only knew from watching. From
+
+091  ANC      V     C        00:00:00:00 00:00:05:05 00:08:40:01 00:08:45:06
+* FROM CLIP NAME: IB_ANC_all/A (43).png
+* SHOT: S090  STYLE: FIRELIGHT-FLICKER  TRIGGER: That children born inside the family
+
+092  ANC      V     C        00:00:00:00 00:00:05:16 00:08:45:06 00:08:50:22
+* FROM CLIP NAME: IB_ANC_all/A (44).png
+* SHOT: S091  STYLE: BREATHING-HOLD  TRIGGER: They sent their young people outward.
+
+093  VOX      V     C        00:00:00:00 00:00:07:10 00:08:50:22 00:08:58:02
+* FROM CLIP NAME: IB_VOX_all/V (48).png
+* OVERLAY: "OUR SPECIES, CONNECTED" @ x=0.5 y=0.84 bottom-center zone=LOWER-BAND
+* SHOT: S092  STYLE: WEB-EXPAND  TRIGGER: landscapes and married into them. And

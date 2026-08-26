@@ -1,0 +1,226 @@
+name: Render video
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch to render from (default: main)"
+        required: false
+        default: "main"
+        type: string
+  push:
+    branches: [main, master, develop, render/**]
+    paths:
+      - "INBREEDING_CLONE/**"
+      - ".github/workflows/render.yml"
+
+# Cancel any in-flight run for the same ref
+concurrency:
+  group: render-${{ github.ref }}
+  cancel-in-progress: true
+
+# Render working dir is the project folder, regardless of how the repo is laid out
+defaults:
+  run:
+    shell: bash
+    working-directory: INBREEDING_CLONE
+
+jobs:
+  # ── STEP 1: plan chunks (one job, fast) ──────────────────────────────────────
+  plan:
+    name: Plan chunks
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      num-chunks: ${{ steps.plan.outputs.num-chunks }}
+      total-frames: ${{ steps.plan.outputs.total-frames }}
+      fps: ${{ steps.plan.outputs.fps }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: INBREEDING_CLONE/video/package-lock.json
+
+      - name: Install Python (for plan_chunks.py)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Plan chunk ranges
+        id: plan
+        run: |
+          python scripts/plan_chunks.py
+          echo "num-chunks=$(jq -r .numChunks chunks.json)" >> $GITHUB_OUTPUT
+          echo "total-frames=$(jq -r .totalFrames chunks.json)" >> $GITHUB_OUTPUT
+          echo "fps=$(jq -r .fps chunks.json)" >> $GITHUB_OUTPUT
+
+      - name: Upload plan
+        uses: actions/upload-artifact@v4
+        with:
+          name: render-plan
+          path: INBREEDING_CLONE/chunks.json
+          if-no-files-found: error
+          retention-days: 7
+
+  # ── STEP 2: render each chunk in parallel (N jobs) ──────────────────────────
+  render:
+    name: Render chunk ${{ matrix.chunk }}
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        chunk: ${{ fromJson(needs.plan.outputs.num-chunks) }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: INBREEDING_CLONE/video/package-lock.json
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Download plan
+        uses: actions/download-artifact@v4
+        with:
+          name: render-plan
+          path: INBREEDING_CLONE/
+
+      - name: Install npm dependencies
+        working-directory: INBREEDING_CLONE/video
+        run: npm ci --no-audit --no-fund
+
+      - name: Render chunk ${{ matrix.chunk }}
+        env:
+          CHUNK_INDEX: ${{ matrix.chunk }}
+          RENDER_CONCURRENCY: "2"
+        run: node scripts/render_chunk.mjs
+
+      - name: Upload rendered chunk
+        uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.chunk }}
+          path: INBREEDING_CLONE/video/out/chunks/chunk_${{ matrix.chunk }}.mp4
+          if-no-files-found: error
+          retention-days: 7
+
+  # ── STEP 3: combine all chunks into the final video ─────────────────────────
+  combine:
+    name: Combine chunks
+    needs: [plan, render]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Download plan
+        uses: actions/download-artifact@v4
+        with:
+          name: render-plan
+          path: INBREEDING_CLONE/
+
+      - name: Download all chunks
+        uses: actions/download-artifact@v4
+        with:
+          pattern: chunk-*
+          path: INBREEDING_CLONE/video/out/chunks/
+          merge-multiple: true
+
+      - name: List downloaded chunks
+        run: ls -la video/out/chunks/
+
+      - name: Combine chunks
+        run: node scripts/combine_chunks.mjs
+
+      - name: Probe final video
+        run: |
+          ffprobe -v error -show_format -show_streams video/out/final_video.mp4 | head -50
+
+      - name: Upload final video
+        uses: actions/upload-artifact@v4
+        with:
+          name: final-video
+          path: INBREEDING_CLONE/video/out/final_video.mp4
+          if-no-files-found: error
+          retention-days: 30
+
+  # ── STEP 4: validate the build artefacts are consistent ────────────────────
+  validate:
+    name: Validate build
+    needs: combine
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install ffmpeg (for ffprobe)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Download final video
+        uses: actions/download-artifact@v4
+        with:
+          name: final-video
+          path: INBREEDING_CLONE/validate/
+
+      - name: Run validation
+        run: |
+          python scripts/validate.py \
+            --video validate/final_video.mp4 \
+            --scenes video/src/scenes.json \
+            --csv  EDIT_ancient-inbreeding.csv \
+            --shotlist SHOTLIST_ancient-inbreeding.md \
+            --map FILENAME_MAP_ancient-inbreeding.csv \
+            --edl  EDIT_ancient-inbreeding.edl \
+            --out reports/validation_report.json || true
+
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: INBREEDING_CLONE/reports/validation_report.json
+          retention-days: 30

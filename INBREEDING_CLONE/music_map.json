@@ -1,0 +1,32 @@
+{
+ "sections": [
+  {
+   "track": "explain",
+   "start": 0.0,
+   "end": 125.24
+  },
+  {
+   "track": "reveal",
+   "start": 125.24,
+   "end": 200.22
+  },
+  {
+   "track": "campfire",
+   "start": 200.22,
+   "end": 351.9
+  },
+  {
+   "track": "sad",
+   "start": 351.9,
+   "end": 419.64
+  },
+  {
+   "track": "campfire",
+   "start": 419.64,
+   "end": 538.08
+  }
+ ],
+ "crossfade": 3.0,
+ "fadeIn": 3.0,
+ "fadeOut": 5.0
+}

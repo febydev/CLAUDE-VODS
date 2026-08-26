@@ -1,0 +1,24 @@
+{
+  "name": "ancient-inbreeding-clone-video",
+  "version": "1.0.0",
+  "description": "Remotion assembly: How Did Ancient Humans Avoid Inbreeding (CLONE — built from INBREEDING_CLONE)",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion render Main out/final_video.mp4",
+    "render:chunks": "node ../scripts/render_chunks.mjs",
+    "combine": "node ../scripts/combine_chunks.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.481",
+    "@remotion/google-fonts": "4.0.481",
+    "@remotion/shapes": "4.0.481",
+    "@remotion/media-utils": "4.0.481",
+    "remotion": "4.0.481",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.5.4"
+  }
+}
