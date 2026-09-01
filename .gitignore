@@ -4,3 +4,6 @@ out/
 # OS / editor noise
 .DS_Store
 *.log
+
+# INBREEDING_RENDER — generated at plan time, passed between CI jobs as artifact
+INBREEDING_RENDER/chunks.json
