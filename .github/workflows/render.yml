@@ -1,0 +1,91 @@
+name: Render video
+on:
+  workflow_dispatch:
+    inputs:
+      chunks:
+        description: Number of parallel render chunks
+        default: '8'
+        required: false
+permissions:
+  contents: read
+jobs:
+  setup:
+    name: Plan chunks
+    runs-on: ubuntu-24.04
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/verify.mjs
+      - id: plan
+        env:
+          CHUNKS: ${{ inputs.chunks }}
+        run: node scripts/plan.mjs "$CHUNKS"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: iran-plan
+          path: chunks.json
+  render:
+    name: Render chunk ${{ matrix.chunk.index }}
+    needs: setup
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    strategy:
+      fail-fast: true
+      matrix:
+        chunk: ${{ fromJson(needs.setup.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Browser dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y libnss3 libdbus-1-3 libatk1.0-0t64 libgbm-dev libasound2t64 libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libatk-bridge2.0-0t64 libpango-1.0-0 libcairo2 libcups2t64
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - name: Render silent picture
+        env:
+          START: ${{ matrix.chunk.start }}
+          END: ${{ matrix.chunk.end }}
+          FILE: ${{ matrix.chunk.file }}
+        run: npx remotion render src/index.ts Main "out/$FILE" --frames="$START-$END" --codec=h264 --crf=18 --concurrency=4 --gl=swiftshader --muted --image-format=jpeg --jpeg-quality=95
+      - uses: actions/upload-artifact@v4
+        with:
+          name: iran-chunk-${{ matrix.chunk.index }}
+          path: out/chunk_*.mp4
+          compression-level: 0
+          retention-days: 7
+          if-no-files-found: error
+  combine:
+    name: Join picture and continuous audio
+    needs: render
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - uses: actions/download-artifact@v4
+        with:
+          name: iran-plan
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: iran-chunk-*
+          path: out/chunks
+          merge-multiple: true
+      - run: node scripts/combine.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: iran_final_video
+          path: |
+            out/IRAN_final.mp4
+            out/delivery-probe.json
+          compression-level: 0
+          if-no-files-found: error

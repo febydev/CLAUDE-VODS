@@ -1,0 +1,3180 @@
+[
+  {
+    "shot": "S001",
+    "image_id": "IMG_001",
+    "type": "SCENE",
+    "source": "iran1 org-all/A1.png",
+    "render_file": "images/IMG_001.webp",
+    "sha256": "0360be869400d807f6861aa7d85e78a1de92a66bb00d563821b2ec49f8002be8",
+    "crop": [
+      0,
+      74,
+      1376,
+      695
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S002",
+    "image_id": "IMG_002",
+    "type": "SCENE",
+    "source": "iran1 org-all/A2.png",
+    "render_file": "images/IMG_002.webp",
+    "sha256": "f32061e104e3304f4826495596cb737b5e8d1d42a9125fe3932bf56c2c597a61",
+    "crop": [
+      32,
+      60,
+      1339,
+      737
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S003",
+    "image_id": "IMG_003",
+    "type": "VOX",
+    "source": "iran 2 vox org/B2.png",
+    "render_file": "images/IMG_003.webp",
+    "sha256": "e7ccf77310598e19bc29cf4dcd2d44d054cb22db9c9a79afe26bfd96c22c28a5",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        969,
+        34,
+        1341,
+        107
+      ],
+      [
+        1026,
+        111,
+        1343,
+        184
+      ]
+    ]
+  },
+  {
+    "shot": "S004",
+    "image_id": "IMG_004",
+    "type": "VOX",
+    "source": "iran 2 vox org/B1.png",
+    "render_file": "images/IMG_004.webp",
+    "sha256": "ac503ae4ef792ed1d6966378344c1a90a35d8dfeeaa2edd81fca8352d2e5a45c",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S005",
+    "image_id": "IMG_005",
+    "type": "SCENE",
+    "source": "iran1 org-all/A3.png",
+    "render_file": "images/IMG_005.webp",
+    "sha256": "0a0933a075f0e0a025fe41a90d34bb158e08adce1b50807e93878d79cc90f60c",
+    "crop": [
+      0,
+      80,
+      1376,
+      687
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S007",
+    "image_id": "IMG_007",
+    "type": "SCENE",
+    "source": "iran1 org-all/A4.png",
+    "render_file": "images/IMG_007.webp",
+    "sha256": "f58071d9384daad334535c52bcf6b835e7f85f92941662ff2c3dbb3c97364da4",
+    "crop": [
+      0,
+      77,
+      1376,
+      683
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S009",
+    "image_id": "IMG_009",
+    "type": "SCENE",
+    "source": "iran1 org-all/A5.png",
+    "render_file": "images/IMG_009.webp",
+    "sha256": "e1d3ba3c85ed850cfe0af1503d72f88c818195710ad87f810aef7438862f8d8d",
+    "crop": [
+      0,
+      78,
+      1376,
+      673
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S010",
+    "image_id": "IMG_010",
+    "type": "SCENE",
+    "source": "iran1 org-all/A10.png",
+    "render_file": "images/IMG_010.webp",
+    "sha256": "f7c805640ec8e634cfffbebdf40581ef8f74041a2f5780d204f2bc858b864a49",
+    "crop": [
+      0,
+      47,
+      1376,
+      726
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S011",
+    "image_id": "IMG_011",
+    "type": "VOX",
+    "source": "iran 2 vox org/B3.png",
+    "render_file": "images/IMG_011.webp",
+    "sha256": "b670c6a6ddfc0a0b1a945fb680b4e6a5bdb76c3bd104cac152327706f20d7291",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S012",
+    "image_id": "IMG_012",
+    "type": "SCENE",
+    "source": "iran1 org-all/A7.png",
+    "render_file": "images/IMG_012.webp",
+    "sha256": "5131b98eb4c3d41a81036979e11661be0b0374cb595683331f271ec213eb49b2",
+    "crop": [
+      15,
+      80,
+      1376,
+      667
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S013",
+    "image_id": "IMG_013",
+    "type": "SCENE",
+    "source": "iran1 org-all/A6.png",
+    "render_file": "images/IMG_013.webp",
+    "sha256": "6682d55bf59aa2b709ed3ebc517418079dc29b31a17af1522e6708e761265bd7",
+    "crop": [
+      34,
+      77,
+      1376,
+      709
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S014",
+    "image_id": "IMG_014",
+    "type": "VOX",
+    "source": "iran 2 vox org/B5.png",
+    "render_file": "images/IMG_014.webp",
+    "sha256": "56ce47e0c5f0b352b1c0f1e912fa8b2f57bf7a5c3a28d60d343bbe6be0a4ea64",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        889,
+        34,
+        1348,
+        97
+      ]
+    ]
+  },
+  {
+    "shot": "S015",
+    "image_id": "IMG_015",
+    "type": "SCENE",
+    "source": "iran1 org-all/A8.png",
+    "render_file": "images/IMG_015.webp",
+    "sha256": "57d3088620a1ee9fb1ce42db930e6127586d0a247859b068e05a704d68484908",
+    "crop": [
+      0,
+      74,
+      1376,
+      673
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S016",
+    "image_id": "IMG_016",
+    "type": "SCENE",
+    "source": "iran1 org-all/A9.png",
+    "render_file": "images/IMG_016.webp",
+    "sha256": "9995746488b9756295a6e809f07e8d26b8ffdc710faa75f78041fa01b0f9d4a6",
+    "crop": [
+      0,
+      0,
+      1376,
+      661
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S017",
+    "image_id": "IMG_017",
+    "type": "VOX",
+    "source": "iran 2 vox org/B7.png",
+    "render_file": "images/IMG_017.webp",
+    "sha256": "c322f602c3eab299de451f6bf4e8057f260fb08470ba4618de921e5f5b598758",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S018",
+    "image_id": "IMG_018",
+    "type": "VOX",
+    "source": "iran 2 vox org/B4.png",
+    "render_file": "images/IMG_018.webp",
+    "sha256": "9ed0cc131b2883b3eb2d74711e8f11cbb039e021882c1fc2fe9dcff3aedf61aa",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S019",
+    "image_id": "IMG_019",
+    "type": "SCENE",
+    "source": "iran1 org-all/A11.png",
+    "render_file": "images/IMG_019.webp",
+    "sha256": "bb71806e5f99d68f5370c6990dec2b072ea9f9430ec5077cf874cb4af028f863",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S020",
+    "image_id": "IMG_020",
+    "type": "SCENE",
+    "source": "iran1 org-all/A12.png",
+    "render_file": "images/IMG_020.webp",
+    "sha256": "0058e7b90e0acb90d941b40ad5e2f19510ae5808865d9ed13f1bc6bb8c2a61d3",
+    "crop": [
+      0,
+      78,
+      1376,
+      676
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S022",
+    "image_id": "IMG_022",
+    "type": "VOX",
+    "source": "iran 2 vox org/B8.png",
+    "render_file": "images/IMG_022.webp",
+    "sha256": "c866c8fae327dc6d18136e8017329c0baaad54ea36d18638284ed1e038fb3f52",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        911,
+        63,
+        1307,
+        134
+      ],
+      [
+        1036,
+        138,
+        1306,
+        209
+      ]
+    ]
+  },
+  {
+    "shot": "S023",
+    "image_id": "IMG_023",
+    "type": "SCENE",
+    "source": "iran1 org-all/A13.png",
+    "render_file": "images/IMG_023.webp",
+    "sha256": "b294cf26b3141480aa39cad0b67b2add0bc4f89c064281ff2281d9db47c80a61",
+    "crop": [
+      0,
+      81,
+      1376,
+      715
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S024",
+    "image_id": "IMG_024",
+    "type": "SCENE",
+    "source": "iran1 org-all/A14.png",
+    "render_file": "images/IMG_024.webp",
+    "sha256": "efe68125587280bf94dc496e961451d97a1695500127e5c22d0bf9556b0a530d",
+    "crop": [
+      0,
+      70,
+      1376,
+      690
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S026",
+    "image_id": "IMG_026",
+    "type": "SCENE",
+    "source": "iran1 org-all/A16.png",
+    "render_file": "images/IMG_026.webp",
+    "sha256": "58b27ae53b17cc133c34e0ce5817cd22cd642fdd64050c396c8a8427007a58ee",
+    "crop": [
+      17,
+      14,
+      1360,
+      754
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S027",
+    "image_id": "IMG_027",
+    "type": "SCENE",
+    "source": "iran1 org-all/A15.png",
+    "render_file": "images/IMG_027.webp",
+    "sha256": "30e4f10069994f785ac949aae3b7fd643f5db1f8c397dcc1297f9aa9d4e9fdf5",
+    "crop": [
+      0,
+      0,
+      1376,
+      715
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S028",
+    "image_id": "IMG_028",
+    "type": "SCENE",
+    "source": "iran1 org-all/A18.png",
+    "render_file": "images/IMG_028.webp",
+    "sha256": "a8dba7d256a591178aa616d6be30322273b6e2aa1453bbfc1bbb2812ca403ef4",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S029",
+    "image_id": "IMG_029",
+    "type": "SCENE",
+    "source": "iran1 org-all/A17.png",
+    "render_file": "images/IMG_029.webp",
+    "sha256": "dc9d34ddebea928929f3ea50345224e36bdf8e2e069b074f9eeb14653ba3ccb8",
+    "crop": [
+      48,
+      0,
+      1376,
+      742
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S031",
+    "image_id": "IMG_031",
+    "type": "SCENE",
+    "source": "iran1 org-all/A19.png",
+    "render_file": "images/IMG_031.webp",
+    "sha256": "ab753d2908d34399a26b919dafaf742ebfe8a2b2a0e36d63c60f7924fb6cae9b",
+    "crop": [
+      16,
+      79,
+      1360,
+      696
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S032",
+    "image_id": "IMG_032",
+    "type": "VOX",
+    "source": "iran 2 vox org/B10.png",
+    "render_file": "images/IMG_032.webp",
+    "sha256": "a9995853d70427561d67c624dd941430ef98f95ae630018cc53443bc85ab45f0",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S033",
+    "image_id": "IMG_033",
+    "type": "SCENE",
+    "source": "iran1 org-all/A20.png",
+    "render_file": "images/IMG_033.webp",
+    "sha256": "ef0af37a44f5ca678c6cfaaa8b2410182f7cc346411f817c1011185aff665ce7",
+    "crop": [
+      0,
+      51,
+      1376,
+      695
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S034",
+    "image_id": "IMG_034",
+    "type": "SCENE",
+    "source": "iran1 org-all/A21.png",
+    "render_file": "images/IMG_034.webp",
+    "sha256": "72b14a8cd3b6ef5052b5b1aac4c796ba03250cd7f6920869bb7c96e970e5fb60",
+    "crop": [
+      0,
+      0,
+      1345,
+      729
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S035",
+    "image_id": "IMG_035",
+    "type": "SCENE",
+    "source": "iran1 org-all/A22.png",
+    "render_file": "images/IMG_035.webp",
+    "sha256": "5ac3d042ef18f6fc876fc64ada517fc2488126981b91c1ccef588e9fc9e61c20",
+    "crop": [
+      0,
+      56,
+      1376,
+      702
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S036",
+    "image_id": "IMG_036",
+    "type": "VOX",
+    "source": "iran 2 vox org/B6.png",
+    "render_file": "images/IMG_036.webp",
+    "sha256": "e0f18df035e0524ca26e01770843611fa7b45a61052cfe1ee63967a0198f3eb0",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S037",
+    "image_id": "IMG_037",
+    "type": "VOX",
+    "source": "iran 2 vox org/B9.png",
+    "render_file": "images/IMG_037.webp",
+    "sha256": "8b140d5bef1d3ff107685a1f496f812c3e1e3b2148733f2d74005e6ea03c6f4d",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S039",
+    "image_id": "IMG_039",
+    "type": "SCENE",
+    "source": "iran1 org-all/A23.png",
+    "render_file": "images/IMG_039.webp",
+    "sha256": "902fd730f5ccefe7b730c489010dc2af3d062e5b1de66cd25f6a9e8218495b44",
+    "crop": [
+      0,
+      0,
+      1361,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S040",
+    "image_id": "IMG_040",
+    "type": "VOX",
+    "source": "iran 2 vox org/B11.png",
+    "render_file": "images/IMG_040.webp",
+    "sha256": "55cf055bed1358b73ae97e2ce251fd24d39ac4ed0fe258f96a469f32289bfc2e",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        69,
+        71,
+        413,
+        147
+      ],
+      [
+        66,
+        147,
+        411,
+        222
+      ]
+    ]
+  },
+  {
+    "shot": "S041",
+    "image_id": "IMG_041",
+    "type": "SCENE",
+    "source": "iran1 org-all/A24.png",
+    "render_file": "images/IMG_041.webp",
+    "sha256": "93e49b63ca72c6189d4d16c2468093ab18c969f2f6a6e14910633bec59cb0dcd",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S042",
+    "image_id": "IMG_042",
+    "type": "SCENE",
+    "source": "iran1 org-all/A25.png",
+    "render_file": "images/IMG_042.webp",
+    "sha256": "9737cb1554f9533c40190e5a8362471e87f814b4049526aafad6a7c9641806d5",
+    "crop": [
+      0,
+      64,
+      1376,
+      721
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S043",
+    "image_id": "IMG_043",
+    "type": "VOX",
+    "source": "iran 2 vox org/B12.png",
+    "render_file": "images/IMG_043.webp",
+    "sha256": "40fd9eaba6372cf950a7f2bd168498b953bfe9d3f055711f3380b239fd04fdaa",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S044",
+    "image_id": "IMG_044",
+    "type": "SCENE",
+    "source": "iran1 org-all/A26.png",
+    "render_file": "images/IMG_044.webp",
+    "sha256": "2e420725d1639d6dbbf7cf915611f9f6e8a09db0173f3e4639106218f8308b16",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S046",
+    "image_id": "IMG_046",
+    "type": "SCENE",
+    "source": "iran1 org-all/A27.png",
+    "render_file": "images/IMG_046.webp",
+    "sha256": "954f6d7f409c5d4c4504f5306e4b7953bb00ffa31a4beca53a86a0ad153649fb",
+    "crop": [
+      0,
+      35,
+      1376,
+      751
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S049",
+    "image_id": "IMG_049",
+    "type": "SCENE",
+    "source": "iran1 org-all/A28.png",
+    "render_file": "images/IMG_049.webp",
+    "sha256": "032e8d0e3808159b2f40322cbbd8ddc2d93daced18d290c1194542618c83d4b2",
+    "crop": [
+      0,
+      75,
+      1376,
+      695
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S050",
+    "image_id": "IMG_050",
+    "type": "SCENE",
+    "source": "iran1 org-all/A29.png",
+    "render_file": "images/IMG_050.webp",
+    "sha256": "456a266ee84ac7d9d14f316b5a39f90b3fcf279d06bd5c7d1f9dca5512108e43",
+    "crop": [
+      0,
+      52,
+      1376,
+      688
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S051",
+    "image_id": "IMG_051",
+    "type": "VOX",
+    "source": "iran 2 vox org/B18.png",
+    "render_file": "images/IMG_051.webp",
+    "sha256": "73f11eb22581b601e3b428728bb98505cef9f482dfe375379ea89c276156d4b6",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S052",
+    "image_id": "IMG_052",
+    "type": "VOX",
+    "source": "iran 2 vox org/B14.png",
+    "render_file": "images/IMG_052.webp",
+    "sha256": "abe4e13e1223d463cc580a85fbaa30acb2e5e03eeedd6aa244bcfc8c480dd8df",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S054",
+    "image_id": "IMG_054",
+    "type": "VOX",
+    "source": "iran 2 vox org/B15.png",
+    "render_file": "images/IMG_054.webp",
+    "sha256": "895e52e87dab19c18187ea05c1701847aaa244761166ac8284befb32c7adfc07",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        307,
+        36,
+        1071,
+        104
+      ]
+    ]
+  },
+  {
+    "shot": "S055",
+    "image_id": "IMG_055",
+    "type": "SCENE",
+    "source": "iran1 org-all/A31.png",
+    "render_file": "images/IMG_055.webp",
+    "sha256": "0444231bb862e2a3d2bde2fb26b1c3c2b90f9fa64128812900445362861f0180",
+    "crop": [
+      0,
+      95,
+      1376,
+      712
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S056",
+    "image_id": "IMG_056",
+    "type": "SCENE",
+    "source": "iran1 org-all/A32.png",
+    "render_file": "images/IMG_056.webp",
+    "sha256": "2cd20e259003db907afcdaa4294e4d5f7678e034c7e39091a11726dcc98f3a16",
+    "crop": [
+      0,
+      0,
+      1376,
+      676
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S059",
+    "image_id": "IMG_059",
+    "type": "VOX",
+    "source": "iran 2 vox org/B13.png",
+    "render_file": "images/IMG_059.webp",
+    "sha256": "b1f9f9d7157cedcff80a67a3e89fde37992b4ce162de4588e8b28749654e84c3",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S060",
+    "image_id": "IMG_060",
+    "type": "SCENE",
+    "source": "iran1 org-all/A30.png",
+    "render_file": "images/IMG_060.webp",
+    "sha256": "b1f9da2f2a3d8408a3a8c755ead0271e80d32350d54d6c3e212f5d0b68d54f56",
+    "crop": [
+      30,
+      72,
+      1376,
+      695
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S061",
+    "image_id": "IMG_061",
+    "type": "VOX",
+    "source": "iran 2 vox org/B16.png",
+    "render_file": "images/IMG_061.webp",
+    "sha256": "29390f67b3475cd9869f057796a4868f94cc7477a7aad61b54f96b875b911cf7",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S062",
+    "image_id": "IMG_062",
+    "type": "SCENE",
+    "source": "iran1 org-all/A33.png",
+    "render_file": "images/IMG_062.webp",
+    "sha256": "333c06f51d6932f9a89c76377eb08ea03de900b9eb12a387c51e029c1bb13672",
+    "crop": [
+      0,
+      74,
+      1376,
+      737
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S064",
+    "image_id": "IMG_064",
+    "type": "SCENE",
+    "source": "iran1 org-all/A34.png",
+    "render_file": "images/IMG_064.webp",
+    "sha256": "8286e26afa9eab2f0808ba871faeb0a1e9881a6f427782b53a6eb61f41e65444",
+    "crop": [
+      0,
+      41,
+      1376,
+      740
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S065",
+    "image_id": "IMG_065",
+    "type": "SCENE",
+    "source": "iran1 org-all/A35.png",
+    "render_file": "images/IMG_065.webp",
+    "sha256": "cfd29baa5055d708d18f3983940edc50283d0506ea387710fd978f2d67e666f6",
+    "crop": [
+      14,
+      78,
+      1376,
+      686
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S066",
+    "image_id": "IMG_066",
+    "type": "VOX",
+    "source": "iran 2 vox org/B17.png",
+    "render_file": "images/IMG_066.webp",
+    "sha256": "4a9c3ee8fa4dbb5ebb18029af143d5ea7609b47d7f310e80ec1d20245b0e7d30",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        393,
+        54,
+        978,
+        129
+      ]
+    ]
+  },
+  {
+    "shot": "S067",
+    "image_id": "IMG_067",
+    "type": "SCENE",
+    "source": "iran1 org-all/A37.png",
+    "render_file": "images/IMG_067.webp",
+    "sha256": "58b8186a3cc811e948cde28a117df69999ba2af0acf1f3c99d2258158719c650",
+    "crop": [
+      23,
+      97,
+      1376,
+      670
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S068",
+    "image_id": "IMG_068",
+    "type": "VOX",
+    "source": "iran 2 vox org/B20.png",
+    "render_file": "images/IMG_068.webp",
+    "sha256": "b7714cbaef225ffcb8c2a76c798d507e1147853c8bc9ab477ffcbc9f08a5e826",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S070",
+    "image_id": "IMG_070",
+    "type": "VOX",
+    "source": "iran 2 vox org/B19.png",
+    "render_file": "images/IMG_070.webp",
+    "sha256": "94864af3d7b3fab2255da71d32bb5b8c481e1e93c64ccd702e46ef0e49e2ef34",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S071",
+    "image_id": "IMG_071",
+    "type": "SCENE",
+    "source": "iran1 org-all/A36.png",
+    "render_file": "images/IMG_071.webp",
+    "sha256": "94bb46e25d2f0ca1a80c424c9c7c2cb235f99082bd2c8e7c71ad3f9faa5a1d26",
+    "crop": [
+      0,
+      73,
+      1376,
+      712
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S072",
+    "image_id": "IMG_072",
+    "type": "SCENE",
+    "source": "iran1 org-all/A38.png",
+    "render_file": "images/IMG_072.webp",
+    "sha256": "5f2b1bb25f4ce8ff62d89c9e573ec74bc91ecb695e7180c8e3b1d1364e01db06",
+    "crop": [
+      45,
+      72,
+      1376,
+      676
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S075",
+    "image_id": "IMG_075",
+    "type": "VOX",
+    "source": "iran 2 vox org/B21.png",
+    "render_file": "images/IMG_075.webp",
+    "sha256": "113821667940a9960b1096ff27c92058db4a6ec0d52f94d36232aef99bb97f00",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S076",
+    "image_id": "IMG_076",
+    "type": "SCENE",
+    "source": "iran1 org-all/A39.png",
+    "render_file": "images/IMG_076.webp",
+    "sha256": "b462d251138665860e18f73ad35fdfaead15d1fd3d0f286b48f77bd1b4dff225",
+    "crop": [
+      13,
+      55,
+      1376,
+      720
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S078",
+    "image_id": "IMG_078",
+    "type": "VOX",
+    "source": "iran 2 vox org/B22.png",
+    "render_file": "images/IMG_078.webp",
+    "sha256": "14c33704c6468f0868ade0614ed45fad818eaeb1aa6208fae39e5e29c1011954",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        953,
+        27,
+        1330,
+        88
+      ],
+      [
+        912,
+        86,
+        1355,
+        146
+      ]
+    ]
+  },
+  {
+    "shot": "S079",
+    "image_id": "IMG_079",
+    "type": "SCENE",
+    "source": "iran1 org-all/A40.png",
+    "render_file": "images/IMG_079.webp",
+    "sha256": "eeff44c0e41b9e355253cb6e57fdd2f16fe6aad02088290643f083cb5b67954b",
+    "crop": [
+      0,
+      74,
+      1376,
+      671
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S081",
+    "image_id": "IMG_081",
+    "type": "VOX",
+    "source": "iran 2 vox org/B23.png",
+    "render_file": "images/IMG_081.webp",
+    "sha256": "e901044b152ff9c3695748bb3753930874f65649845f7c8eeb8d2fd0a559771b",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        69,
+        169,
+        668,
+        244
+      ],
+      [
+        35,
+        83,
+        695,
+        282
+      ]
+    ]
+  },
+  {
+    "shot": "S082",
+    "image_id": "IMG_082",
+    "type": "SCENE",
+    "source": "iran1 org-all/A41.png",
+    "render_file": "images/IMG_082.webp",
+    "sha256": "13f9c6be5e870b3d1b19dbf393cc160ebfdd43770dffc332f4a91e07716202c8",
+    "crop": [
+      0,
+      92,
+      1376,
+      711
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S083",
+    "image_id": "IMG_083",
+    "type": "SCENE",
+    "source": "iran1 org-all/A42.png",
+    "render_file": "images/IMG_083.webp",
+    "sha256": "a76fb48bd8eaf639b8a162a0f09549293704bdad3042f1b257ad67fc4b22e512",
+    "crop": [
+      0,
+      89,
+      1376,
+      720
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S084",
+    "image_id": "IMG_084",
+    "type": "SCENE",
+    "source": "iran1 org-all/A43.png",
+    "render_file": "images/IMG_084.webp",
+    "sha256": "0fdc0084c07876dd723428901e31539d8ebb4c5e12e6724d4eba1a0506e9e8b2",
+    "crop": [
+      0,
+      77,
+      1376,
+      736
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S085",
+    "image_id": "IMG_085",
+    "type": "VOX",
+    "source": "iran 2 vox org/B28.png",
+    "render_file": "images/IMG_085.webp",
+    "sha256": "457289f793c2b2bad46358765846001a11cf1e4449b6026cee4933ac8f4e0a1a",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S087",
+    "image_id": "IMG_087",
+    "type": "SCENE",
+    "source": "iran1 org-all/A44.png",
+    "render_file": "images/IMG_087.webp",
+    "sha256": "781522747f244b5351af7a2bc6621aecfaddd46a1ae0898e1f5201c100fb2b7c",
+    "crop": [
+      0,
+      18,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S088",
+    "image_id": "IMG_088",
+    "type": "VOX",
+    "source": "iran 2 vox org/B29.png",
+    "render_file": "images/IMG_088.webp",
+    "sha256": "5124d1425d48c6f882dd610f88a3ee3e6593aeede69b6fa1067cf1f2d6192b26",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S090",
+    "image_id": "IMG_090",
+    "type": "SCENE",
+    "source": "iran1 org-all/A46.png",
+    "render_file": "images/IMG_090.webp",
+    "sha256": "1ae4223dd31a9eeefc6a53b5699d298926267bf784fc23386a23d0c3c35e5bc2",
+    "crop": [
+      0,
+      107,
+      1376,
+      691
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S091",
+    "image_id": "IMG_091",
+    "type": "VOX",
+    "source": "iran 2 vox org/B24.png",
+    "render_file": "images/IMG_091.webp",
+    "sha256": "4f0fc606961a4237e70338c25844dfa801b9c3cf00199315ab4c07d4cf48d354",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        52,
+        51,
+        462,
+        111
+      ],
+      [
+        56,
+        112,
+        267,
+        173
+      ]
+    ]
+  },
+  {
+    "shot": "S093",
+    "image_id": "IMG_093",
+    "type": "SCENE",
+    "source": "iran1 org-all/A45.png",
+    "render_file": "images/IMG_093.webp",
+    "sha256": "1b56bf1a9da62a5cfba68c2079b3f2ff7aa69b0a803018c298240c35053ab4df",
+    "crop": [
+      0,
+      78,
+      1376,
+      715
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S094",
+    "image_id": "IMG_094",
+    "type": "SCENE",
+    "source": "iran1 org-all/A47.png",
+    "render_file": "images/IMG_094.webp",
+    "sha256": "befc238c9a0912bb8dbce13fecc0fcd3344bbcf89e69b5fdc2d68b589492ee3c",
+    "crop": [
+      37,
+      78,
+      1376,
+      687
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S095",
+    "image_id": "IMG_095",
+    "type": "SCENE",
+    "source": "iran1 org-all/A49.png",
+    "render_file": "images/IMG_095.webp",
+    "sha256": "1ed2ba88677a2cc771e5079aa5542a1ff022ef6d20b7425834e5351a4cbaeed8",
+    "crop": [
+      0,
+      108,
+      1376,
+      708
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S096",
+    "image_id": "IMG_096",
+    "type": "SCENE",
+    "source": "iran1 org-all/A48.png",
+    "render_file": "images/IMG_096.webp",
+    "sha256": "4f62b7f6db6b3c581e5a89d16ba538c3551e47a469ad46f199f8ca8e4d5e4ab1",
+    "crop": [
+      0,
+      77,
+      1376,
+      678
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S098",
+    "image_id": "IMG_098",
+    "type": "VOX",
+    "source": "iran 2 vox org/B30.png",
+    "render_file": "images/IMG_098.webp",
+    "sha256": "5107ab4b5ae74a32dc3a80cc5db7b3c5b3eb89ac8e358301171fa7d6f2a1c673",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        510,
+        10,
+        875,
+        187
+      ]
+    ]
+  },
+  {
+    "shot": "S100",
+    "image_id": "IMG_100",
+    "type": "VOX",
+    "source": "iran 2 vox org/B27.png",
+    "render_file": "images/IMG_100.webp",
+    "sha256": "cecac74f4110a46e2ec680fbbf28314e76915e5f10f262f1f21f4f12db679ad9",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        925,
+        35,
+        1342,
+        103
+      ],
+      [
+        785,
+        295,
+        965,
+        341
+      ],
+      [
+        1024,
+        307,
+        1319,
+        358
+      ],
+      [
+        907,
+        17,
+        1360,
+        197
+      ]
+    ]
+  },
+  {
+    "shot": "S101",
+    "image_id": "IMG_101",
+    "type": "SCENE",
+    "source": "iran1 org-all/A50.png",
+    "render_file": "images/IMG_101.webp",
+    "sha256": "16d0a31245fbb1c9be3aa83e5513a8393b5df1e1896fcc5f613f2cea97f44595",
+    "crop": [
+      0,
+      0,
+      1376,
+      741
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S102",
+    "image_id": "IMG_102",
+    "type": "SCENE",
+    "source": "iran1 org-all/A51.png",
+    "render_file": "images/IMG_102.webp",
+    "sha256": "452d51e14413fd12d4ca8ac7550c3d4d72f37c0ef33c45fc9120df04b189d54f",
+    "crop": [
+      0,
+      78,
+      1376,
+      728
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S103",
+    "image_id": "IMG_103",
+    "type": "SCENE",
+    "source": "iran1 org-all/A52.png",
+    "render_file": "images/IMG_103.webp",
+    "sha256": "ebd534203c8c2837317f6aecc5efce24b5b58b20dd05a5c9a18e17098e9a22eb",
+    "crop": [
+      0,
+      53,
+      1376,
+      732
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S106",
+    "image_id": "IMG_106",
+    "type": "SCENE",
+    "source": "iran1 org-all/A53.png",
+    "render_file": "images/IMG_106.webp",
+    "sha256": "ef21bcc3c84097d229d17e429b604846930f43452a536b930588da4a6a21d46c",
+    "crop": [
+      42,
+      81,
+      1376,
+      662
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S108",
+    "image_id": "IMG_108",
+    "type": "VOX",
+    "source": "iran 2 vox org/B26.png",
+    "render_file": "images/IMG_108.webp",
+    "sha256": "76bf87204eaf7297ac5030858b71a0366893a37cb2f35873068e91486c539015",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S110",
+    "image_id": "IMG_110",
+    "type": "SCENE",
+    "source": "iran1 org-all/A56.png",
+    "render_file": "images/IMG_110.webp",
+    "sha256": "4f73621a87db05f6b696701c1fa6b9846020f48af3eae09fbfa6d4722fa2daf0",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S111",
+    "image_id": "IMG_111",
+    "type": "VOX",
+    "source": "iran 2 vox org/B25.png",
+    "render_file": "images/IMG_111.webp",
+    "sha256": "cff05fb0fc3e82622d1f41893bb7aa524025d15b388d6fcc2578d4b10de418c0",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S112",
+    "image_id": "IMG_112",
+    "type": "VOX",
+    "source": "iran 2 vox org/B35.png",
+    "render_file": "images/IMG_112.webp",
+    "sha256": "c68229f9db4ffc3083cfb4e72be14c6990bcde99d48cda5db109788ef4366a19",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        915,
+        103,
+        1318,
+        169
+      ],
+      [
+        1025,
+        169,
+        1210,
+        235
+      ]
+    ]
+  },
+  {
+    "shot": "S114",
+    "image_id": "IMG_114",
+    "type": "SCENE",
+    "source": "iran1 org-all/A54.png",
+    "render_file": "images/IMG_114.webp",
+    "sha256": "f9b1f53d34532d828e419df331b8d5d2a6f8e6aa3619f3f0f68b9f58bdf47155",
+    "crop": [
+      0,
+      77,
+      1376,
+      681
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S115",
+    "image_id": "IMG_115",
+    "type": "SCENE",
+    "source": "iran1 org-all/A55.png",
+    "render_file": "images/IMG_115.webp",
+    "sha256": "87284ee29515ee09ce061ec18e6ee5ee9aec6e3d54c0b7d6e94eb2eaf8a07ba2",
+    "crop": [
+      0,
+      0,
+      1376,
+      671
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S116",
+    "image_id": "IMG_116",
+    "type": "VOX",
+    "source": "iran 2 vox org/B31.png",
+    "render_file": "images/IMG_116.webp",
+    "sha256": "13afa06b156f7d1b64c12ef399a473fb7729d07cdf1ba26ef5717471d9d26f31",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S119",
+    "image_id": "IMG_119",
+    "type": "VOX",
+    "source": "iran 2 vox org/B36.png",
+    "render_file": "images/IMG_119.webp",
+    "sha256": "393d58f11a5aa1fe22e511c5b751049eb476269d62d2ed939150f1f98b4b2dd8",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        329,
+        29,
+        1060,
+        116
+      ]
+    ]
+  },
+  {
+    "shot": "S120",
+    "image_id": "IMG_120",
+    "type": "SCENE",
+    "source": "iran1 org-all/A57.png",
+    "render_file": "images/IMG_120.webp",
+    "sha256": "5f35317e9d8f435f8142e52bc3a1eaa16fbc04356463dcb472c129d408036ff9",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S121",
+    "image_id": "IMG_121",
+    "type": "SCENE",
+    "source": "iran1 org-all/A58.png",
+    "render_file": "images/IMG_121.webp",
+    "sha256": "a68b4dba34b2c5591ce9800e74afdeb038cb6550a6f53e3de4745f587ac4b0b9",
+    "crop": [
+      0,
+      0,
+      1376,
+      736
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S122",
+    "image_id": "IMG_122",
+    "type": "VOX",
+    "source": "iran 2 vox org/B39.png",
+    "render_file": "images/IMG_122.webp",
+    "sha256": "1bf14e61284f928252eed1e1bb6195175f645fc0860b00583a602a589da8efd9",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        132,
+        385,
+        267,
+        425
+      ],
+      [
+        129,
+        423,
+        275,
+        463
+      ],
+      [
+        98,
+        455,
+        304,
+        495
+      ],
+      [
+        235,
+        573,
+        434,
+        619
+      ],
+      [
+        1026,
+        45,
+        1348,
+        121
+      ],
+      [
+        1053,
+        122,
+        1330,
+        191
+      ],
+      [
+        799,
+        414,
+        976,
+        460
+      ],
+      [
+        780,
+        446,
+        995,
+        487
+      ],
+      [
+        1096,
+        574,
+        1282,
+        614
+      ],
+      [
+        1054,
+        607,
+        1322,
+        646
+      ],
+      [
+        885,
+        30,
+        1355,
+        245
+      ]
+    ]
+  },
+  {
+    "shot": "S124",
+    "image_id": "IMG_124",
+    "type": "VOX",
+    "source": "iran 2 vox org/B37.png",
+    "render_file": "images/IMG_124.webp",
+    "sha256": "64f7fada64a0318ce0eae98ecff234a42336dca5d881642686a4b23f182a4219",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        62,
+        53,
+        596,
+        124
+      ],
+      [
+        60,
+        127,
+        417,
+        194
+      ]
+    ]
+  },
+  {
+    "shot": "S125",
+    "image_id": "IMG_125",
+    "type": "VOX",
+    "source": "iran 2 vox org/B33.png",
+    "render_file": "images/IMG_125.webp",
+    "sha256": "ce8d7fed7f407053d6ba709c5eb8c66fea1e7a8aad605e9b4ce099bd6f13f920",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        325,
+        37,
+        1059,
+        95
+      ]
+    ]
+  },
+  {
+    "shot": "S126",
+    "image_id": "IMG_126",
+    "type": "SCENE",
+    "source": "iran1 org-all/A59.png",
+    "render_file": "images/IMG_126.webp",
+    "sha256": "09238b83234e8ba42916b47d6bd351e521d88f5d8b294eeae22a60f89adad866",
+    "crop": [
+      0,
+      54,
+      1376,
+      681
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S127",
+    "image_id": "IMG_127",
+    "type": "SCENE",
+    "source": "iran1 org-all/A60.png",
+    "render_file": "images/IMG_127.webp",
+    "sha256": "da7205e03447e709c9483d7d5e895b2f9c7b27cb2f82404b55c44595b885315d",
+    "crop": [
+      0,
+      79,
+      1376,
+      713
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S128",
+    "image_id": "IMG_128",
+    "type": "SCENE",
+    "source": "iran1 org-all/A61.png",
+    "render_file": "images/IMG_128.webp",
+    "sha256": "67f9306818f3ad36df115e596353a122ab8ff88ab1a67d9f164b0030b10ebfc4",
+    "crop": [
+      27,
+      24,
+      1347,
+      682
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S130",
+    "image_id": "IMG_130",
+    "type": "VOX",
+    "source": "iran 2 vox org/B32.png",
+    "render_file": "images/IMG_130.webp",
+    "sha256": "2517067f3bc8cfc5b2d33743dd2ba07cc940dde8a1cf013e5d2a9180aa420436",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S131",
+    "image_id": "IMG_131",
+    "type": "SCENE",
+    "source": "iran1 org-all/A62.png",
+    "render_file": "images/IMG_131.webp",
+    "sha256": "109b28238ea3f7a10e3601efce367017c8b258117d8b694f3d359fba5125fbe6",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S132",
+    "image_id": "IMG_132",
+    "type": "SCENE",
+    "source": "iran1 org-all/A63.png",
+    "render_file": "images/IMG_132.webp",
+    "sha256": "96a7538b51127e7666a2b3b7e131d08caa7c92776548e3e96a9a90d5ab09b00a",
+    "crop": [
+      0,
+      80,
+      1376,
+      671
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S134",
+    "image_id": "IMG_134",
+    "type": "VOX",
+    "source": "iran 2 vox org/B38.png",
+    "render_file": "images/IMG_134.webp",
+    "sha256": "af4e541d161cda4087a2a5fdd18731518228cbf49ba5a4a1f6cc65f672811b10",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S135",
+    "image_id": "IMG_135",
+    "type": "SCENE",
+    "source": "iran1 org-all/A64.png",
+    "render_file": "images/IMG_135.webp",
+    "sha256": "2cae1bb729ef4fdcb86f1b246893cf37031a584fa29e2673fd06978c24adf40f",
+    "crop": [
+      0,
+      0,
+      1376,
+      714
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S137",
+    "image_id": "IMG_137",
+    "type": "VOX",
+    "source": "iran 2 vox org/B34.png",
+    "render_file": "images/IMG_137.webp",
+    "sha256": "daf8f331ff0adf0c399b30d703121f24896765e99172c76f326fe272df633f6d",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S138",
+    "image_id": "IMG_138",
+    "type": "SCENE",
+    "source": "iran1 org-all/A65.png",
+    "render_file": "images/IMG_138.webp",
+    "sha256": "de1d06a3499a929c169c0925c0484f8e67987ce773c63568e93ec21e145b2cd5",
+    "crop": [
+      0,
+      80,
+      1376,
+      683
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S140",
+    "image_id": "IMG_140",
+    "type": "VOX",
+    "source": "iran 2 vox org/B40.png",
+    "render_file": "images/IMG_140.webp",
+    "sha256": "66d3aaa1e1612837140d7bd4c7072d845b71a8712beecf273179cf60f6a8e73a",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S141",
+    "image_id": "IMG_141",
+    "type": "VOX",
+    "source": "iran 2 vox org/B41.png",
+    "render_file": "images/IMG_141.webp",
+    "sha256": "4c6a1c7018d3081f555998281b427d796bdeebc75ae6f6c9653c75c81b572d14",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        252,
+        48,
+        1135,
+        100
+      ]
+    ]
+  },
+  {
+    "shot": "S142",
+    "image_id": "IMG_142",
+    "type": "VOX",
+    "source": "iran 2 vox org/B44.png",
+    "render_file": "images/IMG_142.webp",
+    "sha256": "8c131e15c2e2d6267f3cdc86051195b0c7dd38024f33236b1e89e81663f0c2cd",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        348,
+        41,
+        1029,
+        116
+      ],
+      [
+        699,
+        179,
+        928,
+        238
+      ],
+      [
+        1068,
+        180,
+        1272,
+        228
+      ],
+      [
+        1055,
+        566,
+        1261,
+        614
+      ]
+    ]
+  },
+  {
+    "shot": "S145",
+    "image_id": "IMG_145",
+    "type": "SCENE",
+    "source": "iran1 org-all/A66.png",
+    "render_file": "images/IMG_145.webp",
+    "sha256": "02f569a406d87775a4065862aca6d81d1f7e11cd782b158a4d7c94af7c427c78",
+    "crop": [
+      0,
+      49,
+      1376,
+      700
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S146",
+    "image_id": "IMG_146",
+    "type": "SCENE",
+    "source": "iran1 org-all/A67.png",
+    "render_file": "images/IMG_146.webp",
+    "sha256": "5a23511d59e82ddceed3913b73751978e01ba6bad31f8836c593a15ef0759f50",
+    "crop": [
+      0,
+      77,
+      1376,
+      736
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S148",
+    "image_id": "IMG_148",
+    "type": "SCENE",
+    "source": "iran1 org-all/A68.png",
+    "render_file": "images/IMG_148.webp",
+    "sha256": "68a6cc8b334b176d5208cd3ca2b70ced6f07b902d7591d78c12a91d301f5be6b",
+    "crop": [
+      18,
+      85,
+      1358,
+      670
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S150",
+    "image_id": "IMG_150",
+    "type": "VOX",
+    "source": "iran 2 vox org/B43.png",
+    "render_file": "images/IMG_150.webp",
+    "sha256": "8848fe9a3e1cdbc81d7a39d6205d4e980e0b70c5a3b72b06683567e9003c9daf",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        966,
+        51,
+        1333,
+        129
+      ],
+      [
+        869,
+        133,
+        1332,
+        228
+      ]
+    ]
+  },
+  {
+    "shot": "S151",
+    "image_id": "IMG_151",
+    "type": "SCENE",
+    "source": "iran1 org-all/A70.png",
+    "render_file": "images/IMG_151.webp",
+    "sha256": "b72f707d0e4542482fd7c06fb72ba90b41242dc5796c96fbef00edd0038def4c",
+    "crop": [
+      0,
+      0,
+      1376,
+      722
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S152",
+    "image_id": "IMG_152",
+    "type": "VOX",
+    "source": "iran 2 vox org/B42.png",
+    "render_file": "images/IMG_152.webp",
+    "sha256": "1445521d19ddc4c3a29f079080b3a5d7dae55399867f7856c65f5b7c1c9607d2",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S155",
+    "image_id": "IMG_155",
+    "type": "VOX",
+    "source": "iran 2 vox org/B50.png",
+    "render_file": "images/IMG_155.webp",
+    "sha256": "27c18afbbe7e0e40f068ecec0f1c17022d145981fb9cc36248d49c6a85b313d1",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S156",
+    "image_id": "IMG_156",
+    "type": "VOX",
+    "source": "iran 2 vox org/B46.png",
+    "render_file": "images/IMG_156.webp",
+    "sha256": "0b08c6c1b649acf3b004089143d5b734522a1fdc08eb68355bdeca71913ef348",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        1016,
+        43,
+        1333,
+        102
+      ],
+      [
+        919,
+        101,
+        1332,
+        160
+      ]
+    ]
+  },
+  {
+    "shot": "S158",
+    "image_id": "IMG_158",
+    "type": "VOX",
+    "source": "iran 2 vox org/B45.png",
+    "render_file": "images/IMG_158.webp",
+    "sha256": "dbd13aaa6e2f0d9df6fd537520582d466e8cdad5746609119396d0fba460b59b",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S160",
+    "image_id": "IMG_160",
+    "type": "VOX",
+    "source": "iran 2 vox org/B48.png",
+    "render_file": "images/IMG_160.webp",
+    "sha256": "e422c8eebbc54be27dfdd5260210cd7ef7c8c6c7e42b416ad4967c6614f5fcc4",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S161",
+    "image_id": "IMG_161",
+    "type": "VOX",
+    "source": "iran 2 vox org/B47.png",
+    "render_file": "images/IMG_161.webp",
+    "sha256": "92728004deed8eb610855a496c29d732952b338be67d282f79c9a19f91575946",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        970,
+        41,
+        1344,
+        114
+      ],
+      [
+        946,
+        118,
+        1346,
+        192
+      ],
+      [
+        820,
+        0,
+        1376,
+        228
+      ]
+    ]
+  },
+  {
+    "shot": "S162",
+    "image_id": "IMG_162",
+    "type": "SCENE",
+    "source": "iran1 org-all/A69.png",
+    "render_file": "images/IMG_162.webp",
+    "sha256": "aef84861b4e537884bfd3975ddf8b18cf89b6b405b3a730fdb9056d4a3fd4ea4",
+    "crop": [
+      0,
+      49,
+      1376,
+      744
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S164",
+    "image_id": "IMG_164",
+    "type": "SCENE",
+    "source": "iran1 org-all/A71.png",
+    "render_file": "images/IMG_164.webp",
+    "sha256": "3a1bd3a4ae79de1a777e49049dbb3b14d96631f4013fd60f94b6faaf2d651bbf",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S165",
+    "image_id": "IMG_165",
+    "type": "SCENE",
+    "source": "iran1 org-all/A72.png",
+    "render_file": "images/IMG_165.webp",
+    "sha256": "38b19fb60152cdf2bf9d188cb12ad31c49da1dbd453810170c9e1b707c38c12a",
+    "crop": [
+      0,
+      0,
+      1376,
+      669
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S166",
+    "image_id": "IMG_166",
+    "type": "VOX",
+    "source": "iran 2 vox org/B49.png",
+    "render_file": "images/IMG_166.webp",
+    "sha256": "336ca83f33e639e1657fa313acc397a8cb0b1753341764ee517fc685c637af3f",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        574,
+        109,
+        747,
+        160
+      ],
+      [
+        321,
+        594,
+        494,
+        641
+      ],
+      [
+        344,
+        624,
+        473,
+        670
+      ],
+      [
+        1064,
+        594,
+        1259,
+        634
+      ],
+      [
+        1098,
+        624,
+        1227,
+        671
+      ]
+    ]
+  },
+  {
+    "shot": "S167",
+    "image_id": "IMG_167",
+    "type": "VOX",
+    "source": "iran 2 vox org/B51.png",
+    "render_file": "images/IMG_167.webp",
+    "sha256": "4706c5cdde21ab5fc8c51ab8d27ebe6b6d8aaa59febeacc3d2fd7a1c9e9d9577",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S168",
+    "image_id": "IMG_168",
+    "type": "VOX",
+    "source": "iran 2 vox org/B53.png",
+    "render_file": "images/IMG_168.webp",
+    "sha256": "0f457a4c2c22b6521e2e08c2379267c833858670919795839babba37cf1cc7b1",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S170",
+    "image_id": "IMG_170",
+    "type": "SCENE",
+    "source": "iran1 org-all/A73.png",
+    "render_file": "images/IMG_170.webp",
+    "sha256": "1ac90e69ec9e03e1d5e367c57c33a54e74fc34f22e3edafa72fc9899212e071b",
+    "crop": [
+      0,
+      76,
+      1376,
+      679
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S171",
+    "image_id": "IMG_171",
+    "type": "SCENE",
+    "source": "iran1 org-all/A75.png",
+    "render_file": "images/IMG_171.webp",
+    "sha256": "876d6c51b7975df1e02ce67749f55bce6917e7abb6f99766b2b2c68c06ecdc8c",
+    "crop": [
+      0,
+      80,
+      1376,
+      700
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S172",
+    "image_id": "IMG_172",
+    "type": "VOX",
+    "source": "iran 2 vox org/B52.png",
+    "render_file": "images/IMG_172.webp",
+    "sha256": "270b2436da1905f19a38421caf4094423e159960f6b1a5c2ffd503e39da2ab0e",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        122,
+        54,
+        484,
+        136
+      ],
+      [
+        45,
+        136,
+        308,
+        218
+      ],
+      [
+        20,
+        25,
+        416,
+        210
+      ]
+    ]
+  },
+  {
+    "shot": "S174",
+    "image_id": "IMG_174",
+    "type": "SCENE",
+    "source": "iran1 org-all/A74.png",
+    "render_file": "images/IMG_174.webp",
+    "sha256": "70d8ffc020ae7b75c95d5a0aa8914ce486b5318b2299688448075fef143289be",
+    "crop": [
+      0,
+      69,
+      1376,
+      716
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S175",
+    "image_id": "IMG_175",
+    "type": "SCENE",
+    "source": "iran1 org-all/A76.png",
+    "render_file": "images/IMG_175.webp",
+    "sha256": "05eb59c648966d63f04f666b0f2482021562f9232b3a22500db56f8190e10711",
+    "crop": [
+      37,
+      77,
+      1376,
+      681
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S177",
+    "image_id": "IMG_177",
+    "type": "VOX",
+    "source": "iran 2 vox org/B57.png",
+    "render_file": "images/IMG_177.webp",
+    "sha256": "dbd9235f1ca20a7dab3629593060b3d1fc7f446e1770c736a1b97e87676b4b03",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        385,
+        29,
+        994,
+        102
+      ]
+    ]
+  },
+  {
+    "shot": "S178",
+    "image_id": "IMG_178",
+    "type": "VOX",
+    "source": "iran 2 vox org/B54.png",
+    "render_file": "images/IMG_178.webp",
+    "sha256": "6dd029ce7cbc0da0e907f81c5dde6694e6cc09f1f4577e4d8e5a530b9e660a52",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        803,
+        45,
+        1340,
+        111
+      ]
+    ]
+  },
+  {
+    "shot": "S179",
+    "image_id": "IMG_179",
+    "type": "SCENE",
+    "source": "iran1 org-all/A77.png",
+    "render_file": "images/IMG_179.webp",
+    "sha256": "58378ceed992d2bba6ed626acabf7196a176d6d388dd4fd9e50b0ff1ed8a2ad0",
+    "crop": [
+      0,
+      76,
+      1376,
+      692
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S180",
+    "image_id": "IMG_180",
+    "type": "SCENE",
+    "source": "iran1 org-all/A79.png",
+    "render_file": "images/IMG_180.webp",
+    "sha256": "96eb8444e29b77d335c7dbfa606f40959c0fe0597063431c88b81dc904bbb8e2",
+    "crop": [
+      18,
+      77,
+      1376,
+      670
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S182",
+    "image_id": "IMG_182",
+    "type": "VOX",
+    "source": "iran 2 vox org/B58.png",
+    "render_file": "images/IMG_182.webp",
+    "sha256": "345b2e35bee1dbbc5fdb5ee8974d3487f344479c5bd8a11a1708527a1314f39b",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S183",
+    "image_id": "IMG_183",
+    "type": "SCENE",
+    "source": "iran1 org-all/A78.png",
+    "render_file": "images/IMG_183.webp",
+    "sha256": "c5f95212bbc2c29bc247d4b30e9e5ad68f2c2865a62e08234dcfbdc6d85957da",
+    "crop": [
+      0,
+      68,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S184",
+    "image_id": "IMG_184",
+    "type": "SCENE",
+    "source": "iran1 org-all/A80.png",
+    "render_file": "images/IMG_184.webp",
+    "sha256": "f3b4d46696e03b59e3ba42ac8a82d2d35012b93f474776ab3882d183ce86c779",
+    "crop": [
+      39,
+      94,
+      1376,
+      687
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S185",
+    "image_id": "IMG_185",
+    "type": "SCENE",
+    "source": "iran1 org-all/A82.png",
+    "render_file": "images/IMG_185.webp",
+    "sha256": "2cd292bf52d0d8fdf0bf7254752d69f572602b4c0e92b2a759a7c82d7fabbe20",
+    "crop": [
+      0,
+      77,
+      1376,
+      690
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S186",
+    "image_id": "IMG_186",
+    "type": "VOX",
+    "source": "iran 2 vox org/B60.png",
+    "render_file": "images/IMG_186.webp",
+    "sha256": "4fcac0af9910f412eaee3f84cb093a4a14c142b76ee13adcbcf503c5455aff04",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S188",
+    "image_id": "IMG_188",
+    "type": "SCENE",
+    "source": "iran1 org-all/A81.png",
+    "render_file": "images/IMG_188.webp",
+    "sha256": "6f189f051dee4da01c05e86e936565e183cf08ae578b36472ba0e01fe38aeaa9",
+    "crop": [
+      0,
+      53,
+      1376,
+      715
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S189",
+    "image_id": "IMG_189",
+    "type": "VOX",
+    "source": "iran 2 vox org/B55.png",
+    "render_file": "images/IMG_189.webp",
+    "sha256": "d86cadcba3db3482ff84358dbaf6865cbd80895a83e6643d9dfd778770fab1ba",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        1080,
+        36,
+        1319,
+        105
+      ],
+      [
+        850,
+        99,
+        1320,
+        171
+      ]
+    ]
+  },
+  {
+    "shot": "S190",
+    "image_id": "IMG_190",
+    "type": "SCENE",
+    "source": "iran1 org-all/A83.png",
+    "render_file": "images/IMG_190.webp",
+    "sha256": "784b088769ea5059ca2b3ea3f57358a1185c71aa907efe6d0446c9a49570eee0",
+    "crop": [
+      0,
+      82,
+      1376,
+      683
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S193",
+    "image_id": "IMG_193",
+    "type": "VOX",
+    "source": "iran 2 vox org/B56.png",
+    "render_file": "images/IMG_193.webp",
+    "sha256": "5a7604b53093eeddec4a729b661da21ad69f3b82f73b203c2ce98aa80def030d",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        91,
+        83,
+        498,
+        150
+      ],
+      [
+        88,
+        152,
+        596,
+        219
+      ],
+      [
+        166,
+        401,
+        572,
+        445
+      ],
+      [
+        205,
+        436,
+        572,
+        489
+      ],
+      [
+        200,
+        473,
+        526,
+        517
+      ],
+      [
+        197,
+        508,
+        553,
+        556
+      ]
+    ]
+  },
+  {
+    "shot": "S194",
+    "image_id": "IMG_194",
+    "type": "SCENE",
+    "source": "iran1 org-all/A84.png",
+    "render_file": "images/IMG_194.webp",
+    "sha256": "a4ad4ea3ccdd52f74e85043331e5d7ca2ac1f5e74c8d59a1731740902a94fe05",
+    "crop": [
+      29,
+      81,
+      1376,
+      700
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S195",
+    "image_id": "IMG_195",
+    "type": "SCENE",
+    "source": "iran1 org-all/A85.png",
+    "render_file": "images/IMG_195.webp",
+    "sha256": "e0dc6a3d8c51fd35a757ff8674037ac85837ca9e90753e0a408f20cc6665d233",
+    "crop": [
+      0,
+      112,
+      1376,
+      670
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S196",
+    "image_id": "IMG_196",
+    "type": "SCENE",
+    "source": "iran1 org-all/A86.png",
+    "render_file": "images/IMG_196.webp",
+    "sha256": "7af253191f9d6003d233b215617ee0be2db6436109bfd847cd8e9bb97b889efa",
+    "crop": [
+      15,
+      71,
+      1376,
+      714
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S198",
+    "image_id": "IMG_198",
+    "type": "SCENE",
+    "source": "iran1 org-all/A87.png",
+    "render_file": "images/IMG_198.webp",
+    "sha256": "bf578db85b7a8c93b9c45820545ba97c167e18168af8049f1594f85d5826b9d9",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S199",
+    "image_id": "IMG_199",
+    "type": "VOX",
+    "source": "iran 2 vox org/B59.png",
+    "render_file": "images/IMG_199.webp",
+    "sha256": "e494e400a09ef7845dcd51dd299571a7f5d6c50ff7049192cc8b448e6f9c8521",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S200",
+    "image_id": "IMG_200",
+    "type": "VOX",
+    "source": "iran 2 vox org/B61.png",
+    "render_file": "images/IMG_200.webp",
+    "sha256": "71c785540452193866d53a052cd9625ad5fd2089da920e76e88ec2b8935cd203",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        721,
+        37,
+        1349,
+        104
+      ],
+      [
+        1126,
+        107,
+        1348,
+        174
+      ]
+    ]
+  },
+  {
+    "shot": "S202",
+    "image_id": "IMG_202",
+    "type": "VOX",
+    "source": "iran 2 vox org/B66.png",
+    "render_file": "images/IMG_202.webp",
+    "sha256": "4fd21efd88878edd07050f4ee9a63355268369ee2d91c13e332eadbe183fe869",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S204",
+    "image_id": "IMG_204",
+    "type": "VOX",
+    "source": "iran 2 vox org/B68.png",
+    "render_file": "images/IMG_204.webp",
+    "sha256": "8985586f4847171caa8968a3af2812ae8091d740a71c758b6ba5591fe4d654d1",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        241,
+        46,
+        1136,
+        106
+      ]
+    ]
+  },
+  {
+    "shot": "S206",
+    "image_id": "IMG_206",
+    "type": "VOX",
+    "source": "iran 2 vox org/B67.png",
+    "render_file": "images/IMG_206.webp",
+    "sha256": "291db482b7ec9c165a35c4b34620d9ad486af97c8402d7248c5b51d2b9364a65",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S207",
+    "image_id": "IMG_207",
+    "type": "VOX",
+    "source": "iran 2 vox org/B69.png",
+    "render_file": "images/IMG_207.webp",
+    "sha256": "0651c5e8f26b2bff18740103432a93483150dfb13b32b30c0c7c8aedf4a1bb1e",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S209",
+    "image_id": "IMG_209",
+    "type": "SCENE",
+    "source": "iran1 org-all/A88.png",
+    "render_file": "images/IMG_209.webp",
+    "sha256": "03b5e9b17a576edf1d4f57a91c6ab6af93be1f1af561f92e8def837455bf51e9",
+    "crop": [
+      0,
+      49,
+      1376,
+      685
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S210",
+    "image_id": "IMG_210",
+    "type": "SCENE",
+    "source": "iran1 org-all/A89.png",
+    "render_file": "images/IMG_210.webp",
+    "sha256": "8b82db822ef5cf0c96e0e18c3673b9a874178c913e182bde127a2e0ecdb4e176",
+    "crop": [
+      37,
+      54,
+      1376,
+      718
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S211",
+    "image_id": "IMG_211",
+    "type": "SCENE",
+    "source": "iran1 org-all/A90.png",
+    "render_file": "images/IMG_211.webp",
+    "sha256": "d3045d7a70a8b271ce9d2c06d0a7af18c5f0c8fd88aadee17306dd5814f6fa61",
+    "crop": [
+      0,
+      116,
+      1376,
+      727
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S212",
+    "image_id": "IMG_212",
+    "type": "VOX",
+    "source": "iran 2 vox org/B62.png",
+    "render_file": "images/IMG_212.webp",
+    "sha256": "16037b2cf8f8b60d8e2f59e905f47e7d285fff585f43d3205c8fc140be59b7aa",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        85,
+        40,
+        1275,
+        124
+      ],
+      [
+        34,
+        174,
+        114,
+        215
+      ],
+      [
+        37,
+        432,
+        117,
+        474
+      ],
+      [
+        917,
+        163,
+        997,
+        204
+      ],
+      [
+        150,
+        10,
+        1345,
+        117
+      ]
+    ]
+  },
+  {
+    "shot": "S215",
+    "image_id": "IMG_215",
+    "type": "SCENE",
+    "source": "iran1 org-all/A91.png",
+    "render_file": "images/IMG_215.webp",
+    "sha256": "bb5aea3c55b9a82a04dec579ce67a43ff26497f2d45684bab510905041486d8e",
+    "crop": [
+      0,
+      78,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S217",
+    "image_id": "IMG_217",
+    "type": "SCENE",
+    "source": "iran1 org-all/A92.png",
+    "render_file": "images/IMG_217.webp",
+    "sha256": "5bff224678ee79f54d577e5e6195883f35f2b99a9d31c806f6e2611a82dcb926",
+    "crop": [
+      0,
+      45,
+      1376,
+      724
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S219",
+    "image_id": "IMG_219",
+    "type": "SCENE",
+    "source": "iran1 org-all/A94.png",
+    "render_file": "images/IMG_219.webp",
+    "sha256": "61a34eb2d55ed92acbc0264726548c7e9c215e14dfbe635c7e0e179b5eaef865",
+    "crop": [
+      0,
+      85,
+      1334,
+      672
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S220",
+    "image_id": "IMG_220",
+    "type": "SCENE",
+    "source": "iran1 org-all/A93.png",
+    "render_file": "images/IMG_220.webp",
+    "sha256": "103dc5644d9878d9e1c53c958c2f965affbeec96fb7b3343a008550affcebe9d",
+    "crop": [
+      0,
+      80,
+      1376,
+      699
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S221",
+    "image_id": "IMG_221",
+    "type": "SCENE",
+    "source": "iran1 org-all/A95.png",
+    "render_file": "images/IMG_221.webp",
+    "sha256": "a902b0c5662772d9e0a845ce8520c8460a40d9523d4667dad4de63b49e5cb1fc",
+    "crop": [
+      0,
+      75,
+      1376,
+      696
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S222",
+    "image_id": "IMG_222",
+    "type": "SCENE",
+    "source": "iran1 org-all/A96.png",
+    "render_file": "images/IMG_222.webp",
+    "sha256": "ffe2d56bffa6638f72db1d494ee20b8d618e0962ec975cfa4be120e90da23a26",
+    "crop": [
+      0,
+      66,
+      1376,
+      695
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S223",
+    "image_id": "IMG_223",
+    "type": "SCENE",
+    "source": "iran1 org-all/A98.png",
+    "render_file": "images/IMG_223.webp",
+    "sha256": "168aff197f0a81bdf887f487d1f4dd41b2a7566877a489e9fdb25f27417230a7",
+    "crop": [
+      0,
+      77,
+      1376,
+      706
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S224",
+    "image_id": "IMG_224",
+    "type": "VOX",
+    "source": "iran 2 vox org/B64.png",
+    "render_file": "images/IMG_224.webp",
+    "sha256": "876b41cc1e3a5a2b7dcb62687c27f8ca92a65ff411522d41968706f464e1c1c9",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": [
+      [
+        864,
+        38,
+        1337,
+        108
+      ],
+      [
+        881,
+        107,
+        1335,
+        177
+      ]
+    ]
+  },
+  {
+    "shot": "S227",
+    "image_id": "IMG_227",
+    "type": "SCENE",
+    "source": "iran1 org-all/A97.png",
+    "render_file": "images/IMG_227.webp",
+    "sha256": "c923681d385f712dd75bb319542d136fa7a62f375383766093e4b737ce045b08",
+    "crop": [
+      0,
+      81,
+      1376,
+      671
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S229",
+    "image_id": "IMG_229",
+    "type": "SCENE",
+    "source": "iran1 org-all/A101.png",
+    "render_file": "images/IMG_229.webp",
+    "sha256": "e6fa6d7dd58c8d2c43acd0966efe71de633743b6dcba42216f6fe38dbcb55ae8",
+    "crop": [
+      0,
+      74,
+      1376,
+      704
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S231",
+    "image_id": "IMG_231",
+    "type": "VOX",
+    "source": "iran 2 vox org/B63.png",
+    "render_file": "images/IMG_231.webp",
+    "sha256": "3abb65d5147ec3586b006018c3cd28eacf5027acea1e7b039dad6af95002ad78",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S232",
+    "image_id": "IMG_232",
+    "type": "VOX",
+    "source": "iran 2 vox org/B65.png",
+    "render_file": "images/IMG_232.webp",
+    "sha256": "8b4080049834131145add79b47e263f6788241ee25d97a2cb1faa7cade3cde8c",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S234",
+    "image_id": "IMG_234",
+    "type": "VOX",
+    "source": "iran 2 vox org/B70.png",
+    "render_file": "images/IMG_234.webp",
+    "sha256": "dc018914fd09787f015e108c92ecaa398ae3785869d153f9865ba8a5ed487f18",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S236",
+    "image_id": "IMG_236",
+    "type": "VOX",
+    "source": "iran 2 vox org/B72.png",
+    "render_file": "images/IMG_236.webp",
+    "sha256": "ff83cda4801557896d0dfe1db917a8c74837c83aa1e49c9590b95269cca9b961",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S239",
+    "image_id": "IMG_239",
+    "type": "SCENE",
+    "source": "iran1 org-all/A99.png",
+    "render_file": "images/IMG_239.webp",
+    "sha256": "31a3ec4e9a329b894f2820b84a686bdef4974fcfc6c8d8ab2855e4ebaecef039",
+    "crop": [
+      0,
+      66,
+      1376,
+      709
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S240",
+    "image_id": "IMG_240",
+    "type": "SCENE",
+    "source": "iran1 org-all/A100.png",
+    "render_file": "images/IMG_240.webp",
+    "sha256": "32866c906ed7326627bcd2c30d89b7a3e4040e8946497308ad571a8a725f913a",
+    "crop": [
+      24,
+      104,
+      1376,
+      694
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S241",
+    "image_id": "IMG_241",
+    "type": "SCENE",
+    "source": "iran1 org-all/A102.png",
+    "render_file": "images/IMG_241.webp",
+    "sha256": "378f631ff91756f9094d2b85296c334eefcc0fdadff05f5a037e1383b8e8e9c0",
+    "crop": [
+      0,
+      64,
+      1376,
+      693
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S242",
+    "image_id": "IMG_242",
+    "type": "SCENE",
+    "source": "iran1 org-all/A104.png",
+    "render_file": "images/IMG_242.webp",
+    "sha256": "e5b332a5eb84f2368342038499387e90724c3903fcc466d72d4949bae5a5621b",
+    "crop": [
+      0,
+      79,
+      1376,
+      707
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S243",
+    "image_id": "IMG_243",
+    "type": "SCENE",
+    "source": "iran1 org-all/A106.png",
+    "render_file": "images/IMG_243.webp",
+    "sha256": "fcb9c9f9fc6fa9a6add27ebe9a936fc30cd8e0882f4e6826097d0672250bef78",
+    "crop": [
+      0,
+      78,
+      1376,
+      690
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S244",
+    "image_id": "IMG_244",
+    "type": "SCENE",
+    "source": "iran1 org-all/A107.png",
+    "render_file": "images/IMG_244.webp",
+    "sha256": "9a6784cbb2d50164938dde6fa21caf868bd23f7b02623029767f86238b00f20e",
+    "crop": [
+      0,
+      93,
+      1376,
+      682
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S245",
+    "image_id": "IMG_245",
+    "type": "VOX",
+    "source": "iran 2 vox org/B71.png",
+    "render_file": "images/IMG_245.webp",
+    "sha256": "b2f56776795ea29abdeb457a31ff5d1e34821fe867994fd3578e26fdc4976fc0",
+    "crop": [
+      0,
+      0,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S247",
+    "image_id": "IMG_247",
+    "type": "SCENE",
+    "source": "iran1 org-all/A103.png",
+    "render_file": "images/IMG_247.webp",
+    "sha256": "d0e634e0ccae0327ff1c32c73103f7f55047f71c1d989f30a64353070f7ad32b",
+    "crop": [
+      0,
+      92,
+      1376,
+      768
+    ],
+    "removed_text_regions": []
+  },
+  {
+    "shot": "S248",
+    "image_id": "IMG_248",
+    "type": "SCENE",
+    "source": "iran1 org-all/A105.png",
+    "render_file": "images/IMG_248.webp",
+    "sha256": "d93717509972677f31a915073d9ab64108335b208dbf443d61ebf05bafadb582",
+    "crop": [
+      0,
+      49,
+      1376,
+      699
+    ],
+    "removed_text_regions": []
+  }
+]

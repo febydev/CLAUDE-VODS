@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+<title>EPIC IS NOT A MODERN TEXTBOOK</title>
+<desc>The Shahnameh includes legendary material and must not be treated as a literal record throughout.</desc>
+<style>text{font-family:Impact,sans-serif}.body{font-family:Bahnschrift,sans-serif}</style>
+<g id="background">
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#F7E5BC" stroke="none" stroke-width="3"/>
+<rect x="84" y="82" width="14" height="720" rx="0" fill="#A64F2D" stroke="none" stroke-width="3"/>
+<text x="124.0" y="106.0" font-size="30" fill="#A64F2D" class="body">HISTORY OF IRAN</text>
+</g>
+<g id="headline">
+<text x="120.0" y="219.0" font-size="76" fill="#241B16">EPIC IS NOT A MODERN TEXTBOOK</text>
+</g>
+<g id="connections">
+</g>
+<g id="item-1">
+<rect x="135" y="405" width="675" height="285" rx="18" fill="#FFF8E8" stroke="#241B16" stroke-width="4"/>
+<rect x="153" y="424" width="58" height="7" rx="0" fill="#A64F2D" stroke="none" stroke-width="3"/>
+<text x="472.5" y="569.5" font-size="60" fill="#241B16" text-anchor="middle">STORY AND MEMORY</text>
+</g>
+<g id="item-2">
+<rect x="855" y="405" width="675" height="285" rx="18" fill="#FFF8E8" stroke="#241B16" stroke-width="4"/>
+<rect x="873" y="424" width="58" height="7" rx="0" fill="#A64F2D" stroke="none" stroke-width="3"/>
+<text x="1192.5" y="569.5" font-size="60" fill="#241B16" text-anchor="middle">HISTORICAL EVIDENCE</text>
+</g>
+<g id="character-anchor">
+<circle cx="1695" cy="650" r="65" fill="#FFF8E8" stroke="#241B16" stroke-width="6"/>
+<polyline points="1645,610 1661,583 1681,595 1699,582 1720,597 1743,610" fill="none" stroke="#241B16" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1673" cy="645" r="10" fill="#FFFFFF" stroke="#241B16" stroke-width="2"/>
+<circle cx="1717" cy="645" r="10" fill="#FFFFFF" stroke="#241B16" stroke-width="2"/>
+<circle cx="1673" cy="647" r="3" fill="#241B16" stroke="#241B16" stroke-width="1"/>
+<circle cx="1717" cy="647" r="3" fill="#241B16" stroke="#241B16" stroke-width="1"/>
+<polyline points="1660,623 1685,620" fill="none" stroke="#241B16" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1705,620 1730,623" fill="none" stroke="#241B16" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1678,680 1712,680" fill="none" stroke="#241B16" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1660" y="720" width="70" height="100" rx="5" fill="#406A68" stroke="#241B16" stroke-width="4"/>
+<polyline points="1661,733 1605,767 1575,740" fill="none" stroke="#241B16" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1729,733 1762,785 1748,807" fill="none" stroke="#241B16" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1675,820 1655,880 1625,882" fill="none" stroke="#241B16" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1715,820 1739,880 1767,882" fill="none" stroke="#241B16" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="qualification">
+<text x="120.0" y="298.0" font-size="30" fill="#241B16" class="body">The Shahnameh preserves epic tradition, including legendary stories.</text>
+</g>
+</svg>

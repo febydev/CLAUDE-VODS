@@ -1,0 +1,16 @@
+{
+  "fps": 25,
+  "frames": 36855,
+  "shots": 249,
+  "counts": {
+    "SCENE": 107,
+    "VOX": 72,
+    "CODE": 70
+  },
+  "sfx_cues": 42,
+  "background_music": false,
+  "source_files_match_original": true,
+  "mapping": "Pixel-reviewed source order recorded in art_decisions.py",
+  "native_graphics_recovered": 70,
+  "native_title_pairs_recovered": 72
+}

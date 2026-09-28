@@ -1,0 +1,338 @@
+[
+  {
+    "shot": "S004",
+    "id": "IMG_004",
+    "frame": 557,
+    "seconds": 22.28,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S008",
+    "id": "IMG_008",
+    "frame": 1065,
+    "seconds": 42.6,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S014",
+    "id": "IMG_014",
+    "frame": 2026,
+    "seconds": 81.04,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S021",
+    "id": "IMG_021",
+    "frame": 3094,
+    "seconds": 123.76,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S025",
+    "id": "IMG_025",
+    "frame": 3597,
+    "seconds": 143.88,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S030",
+    "id": "IMG_030",
+    "frame": 4244,
+    "seconds": 169.76,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S037",
+    "id": "IMG_037",
+    "frame": 5257,
+    "seconds": 210.28,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S043",
+    "id": "IMG_043",
+    "frame": 6086,
+    "seconds": 243.44,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S047",
+    "id": "IMG_047",
+    "frame": 6677,
+    "seconds": 267.08,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S052",
+    "id": "IMG_052",
+    "frame": 7505,
+    "seconds": 300.2,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S057",
+    "id": "IMG_057",
+    "frame": 8300,
+    "seconds": 332.0,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S069",
+    "id": "IMG_069",
+    "frame": 10145,
+    "seconds": 405.8,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S073",
+    "id": "IMG_073",
+    "frame": 10687,
+    "seconds": 427.48,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S077",
+    "id": "IMG_077",
+    "frame": 11152,
+    "seconds": 446.08,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S080",
+    "id": "IMG_080",
+    "frame": 11640,
+    "seconds": 465.6,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S086",
+    "id": "IMG_086",
+    "frame": 12612,
+    "seconds": 504.48,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S091",
+    "id": "IMG_091",
+    "frame": 13412,
+    "seconds": 536.48,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S099",
+    "id": "IMG_099",
+    "frame": 14546,
+    "seconds": 581.84,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S104",
+    "id": "IMG_104",
+    "frame": 15341,
+    "seconds": 613.64,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S107",
+    "id": "IMG_107",
+    "frame": 15791,
+    "seconds": 631.64,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S111",
+    "id": "IMG_111",
+    "frame": 16334,
+    "seconds": 653.36,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S116",
+    "id": "IMG_116",
+    "frame": 17149,
+    "seconds": 685.96,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S122",
+    "id": "IMG_122",
+    "frame": 18067,
+    "seconds": 722.68,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S129",
+    "id": "IMG_129",
+    "frame": 19245,
+    "seconds": 769.8,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S133",
+    "id": "IMG_133",
+    "frame": 19793,
+    "seconds": 791.72,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S137",
+    "id": "IMG_137",
+    "frame": 20285,
+    "seconds": 811.4,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S141",
+    "id": "IMG_141",
+    "frame": 20895,
+    "seconds": 835.8,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S147",
+    "id": "IMG_147",
+    "frame": 21826,
+    "seconds": 873.04,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S153",
+    "id": "IMG_153",
+    "frame": 22696,
+    "seconds": 907.84,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S157",
+    "id": "IMG_157",
+    "frame": 23445,
+    "seconds": 937.8,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S161",
+    "id": "IMG_161",
+    "frame": 24239,
+    "seconds": 969.56,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S167",
+    "id": "IMG_167",
+    "frame": 25052,
+    "seconds": 1002.08,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S172",
+    "id": "IMG_172",
+    "frame": 25656,
+    "seconds": 1026.24,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S176",
+    "id": "IMG_176",
+    "frame": 26251,
+    "seconds": 1050.04,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S181",
+    "id": "IMG_181",
+    "frame": 26991,
+    "seconds": 1079.64,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S186",
+    "id": "IMG_186",
+    "frame": 27676,
+    "seconds": 1107.04,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S189",
+    "id": "IMG_189",
+    "frame": 28158,
+    "seconds": 1126.32,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S193",
+    "id": "IMG_193",
+    "frame": 28782,
+    "seconds": 1151.28,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S197",
+    "id": "IMG_197",
+    "frame": 29233,
+    "seconds": 1169.32,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S201",
+    "id": "IMG_201",
+    "frame": 29746,
+    "seconds": 1189.84,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S208",
+    "id": "IMG_208",
+    "frame": 30755,
+    "seconds": 1230.2,
+    "file": "05_glitch_ding.wav",
+    "gain": 0.1
+  },
+  {
+    "shot": "S212",
+    "id": "IMG_212",
+    "frame": 31316,
+    "seconds": 1252.64,
+    "file": "03_ui_notif.wav",
+    "gain": 0.1
+  }
+]

@@ -1,0 +1,219 @@
+{
+  "duration": 1474.2,
+  "voice_gain_db": -1.8,
+  "sfx_cues": 42,
+  "music": false,
+  "sample_peak_dbfs": -1.8000000898564694,
+  "cues": [
+    {
+      "id": "IMG_004",
+      "frame": 557,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_008",
+      "frame": 1065,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_014",
+      "frame": 2026,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_021",
+      "frame": 3094,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_025",
+      "frame": 3597,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_030",
+      "frame": 4244,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_037",
+      "frame": 5257,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_043",
+      "frame": 6086,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_047",
+      "frame": 6677,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_052",
+      "frame": 7505,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_057",
+      "frame": 8300,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_069",
+      "frame": 10145,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_073",
+      "frame": 10687,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_077",
+      "frame": 11152,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_080",
+      "frame": 11640,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_086",
+      "frame": 12612,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_091",
+      "frame": 13412,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_099",
+      "frame": 14546,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_104",
+      "frame": 15341,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_107",
+      "frame": 15791,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_111",
+      "frame": 16334,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_116",
+      "frame": 17149,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_122",
+      "frame": 18067,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_129",
+      "frame": 19245,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_133",
+      "frame": 19793,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_137",
+      "frame": 20285,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_141",
+      "frame": 20895,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_147",
+      "frame": 21826,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_153",
+      "frame": 22696,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_157",
+      "frame": 23445,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_161",
+      "frame": 24239,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_167",
+      "frame": 25052,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_172",
+      "frame": 25656,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_176",
+      "frame": 26251,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_181",
+      "frame": 26991,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_186",
+      "frame": 27676,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_189",
+      "frame": 28158,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_193",
+      "frame": 28782,
+      "samples": 38688
+    },
+    {
+      "id": "IMG_197",
+      "frame": 29233,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_201",
+      "frame": 29746,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_208",
+      "frame": 30755,
+      "samples": 13680
+    },
+    {
+      "id": "IMG_212",
+      "frame": 31316,
+      "samples": 38688
+    }
+  ]
+}
